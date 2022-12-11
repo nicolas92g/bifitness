@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+}
+
+#scrollArrow{
+    position: fixed;
+    bottom: 0;
+    width: 8vh;
+    left: calc(50vw - 4vh);
+}
+
+#burgerMenu{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 2px 0px;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#burgerMenu div{
+    width: 80%;
+    height: 12%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+#menu{
+    color: white;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: .4s all ease;
+    transform: translateY(-100%);
+}
+
+#menu img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#menu div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#menu a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 10px;
+    color: inherit;
+    font-size: 20px;
+}
+
+section:nth-of-type(1){
+    background: url("../assets/muscuBackground.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-attachment: fixed;
+}
+
+section:nth-of-type(3){
+    background: url("../assets/muscuBackground2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section:nth-of-type(5){
+    background: url("../assets/nutrition.jpeg") no-repeat;
+    background-size: cover;
+    background-position: right 0;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 74px);
+
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.textContainer{
+    color: black;
+    background-color: white;
+    padding: 30px 0px;
+}
+
+
+.imgBackground{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px 10vh;
+}
+
+.imgBackground h2{
+    font-size: 40px;
+}
+.imgBackground h2, .imgBackground p{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, .6);
+}
+
+section h1{
+    font-size: 70px;
+    margin: 30px;
+}
+
+.imgBackground button
+
+section div{
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+
+.imgBackground button{
+    font-size: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    color: inherit;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+}
+
+section a{
+    display: block;
+    color: inherit;
+    text-decoration: underline;
+    padding: 20px 0;
+}
