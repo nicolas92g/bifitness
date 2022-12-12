@@ -132,8 +132,6 @@ section h1{
     margin: 30px;
 }
 
-.imgBackground button
-
 section div{
     margin: 20px 0;
     padding-bottom: 50px;
@@ -154,4 +152,29 @@ section a{
     color: inherit;
     text-decoration: underline;
     padding: 20px 0;
+}
+
+@media screen and (min-width: 1000px){
+    #burgerMenu{
+        display: none;
+    }
+    #menu{
+        transform: translateY(0%);
+        background-color: black;
+    }
+    header nav{
+        margin: auto;
+        width: min(100%, 1000px);
+        display: flex;
+        justify-content: space-between;
+    }
+    img[alt="close"]{
+        display: none;
+    }
+    #menu a{
+        transition: all .3s;
+    }
+    #menu a:hover{
+        filter: invert(30%);
+    }
 }

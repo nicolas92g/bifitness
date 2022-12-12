@@ -20,7 +20,7 @@
                 <a href="pages/nutrition.php" onclick="openBurgerMenu(false)">Nutrition</a>
                 <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Plan d'entrainement gratuit</a>
                 <a href="pages/programmes.php" onclick="openBurgerMenu(false)">Générateur de programme</a>
-                <a href="#"  onclick="openBurgerMenu(false)">Qui suis-je ?</a>
+                <a href="pages/presentation.php"  onclick="openBurgerMenu(false)">Qui suis-je ?</a>
             </nav>
             <!-- button that allow to close the application -->
             <img src="assets/closeButton.svg" alt="close" onclick="openBurgerMenu(false)">
@@ -69,7 +69,7 @@
                 <p>
                     Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
                 </p>
-                <a href="#0">Accéder à des programmes gratuits</a>
+                <a href="pages/entrainement.php">Accéder à des programmes gratuits</a>
             </section>
             <!-- "NUTRITION" section -->
             <section class="container imgBackground">

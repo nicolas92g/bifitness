@@ -23,3 +23,12 @@ function openBurgerMenu(open){
     }
 }
 
+window.onresize = function(event){
+    let menu = document.getElementById("menu");
+
+    if (window.innerWidth < 1000){
+        openBurgerMenu(false);
+    }
+    else menu.style.transform = "none";
+
+}
