@@ -14,11 +14,19 @@ $content = "
         </p>
     </div>
     
-    <button>Appuyez pour commencer</button>
+    <button onclick='goToPage(1)'>Appuyez pour commencer</button>
     
 </section>
 
+<section class='pageContainer'>
+    <h1>Quel est votre sexe ?</h1>
+</section>
 
+<section class='pageContainer'>
+    
+</section>
+
+<script src='../js/programmes.js'></script>
 ";
 
 echo genSiteContent("..", $content);

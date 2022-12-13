@@ -16,6 +16,7 @@
         <!--   burger menu  -->
         <header id="menu">
             <nav>
+                <img src="assets/icon.png" width="80" alt="headerIcon">
                 <a href="pages/exercices.php" onclick="openBurgerMenu(false)">Exercices</a>
                 <a href="pages/nutrition.php" onclick="openBurgerMenu(false)">Nutrition</a>
                 <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Plan d'entrainement gratuit</a>
@@ -40,8 +41,8 @@
                     <H1>Bifitness</H1>
                     <p>Le site qui t'aide à atteindre tes objectifs !</p>
                 </div>
-                <img src="assets/icon.png" width="100">
-                <!--<button type="button">En savoir plus</button>-->
+                <div></div>
+<!--                <img src="assets/icon.png" width="100" alt="icon">-->
             </section>
             <!-- "EXERCICES" section -->
             <section class="container textContainer">
@@ -53,7 +54,6 @@
             </section>
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
-                <!--<img src="assets/icon.png" width="70">-->
                 <div></div>
                 <div>
                     <H2>Programmes personalisés</H2>
@@ -74,7 +74,6 @@
             <!-- "NUTRITION" section -->
             <section class="container imgBackground">
                 <div></div>
-                <!--<img src="assets/icon.png" width="70">-->
                 <div>
                     <H2>Nutrition</H2>
                     <p>

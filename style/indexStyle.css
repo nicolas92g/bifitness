@@ -6,7 +6,8 @@ body{
     position: fixed;
     bottom: 0;
     width: 8vh;
-    left: calc(50vw - 4vh);
+    margin-left: -4vh;
+    left: 50%;
 }
 
 #burgerMenu{
@@ -16,7 +17,7 @@ body{
     border: 3px solid white;
     border-radius: 5px;
     margin: 0;
-    padding: 2px 0px;
+    padding: 2px 0;
     right: 20px;
     top: 20px;
     display: flex;
@@ -106,7 +107,7 @@ section:nth-of-type(5){
 .textContainer{
     color: black;
     background-color: white;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 
