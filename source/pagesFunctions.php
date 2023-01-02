@@ -51,3 +51,33 @@ function makeQuestionNumberMenu($question, $id, $unit){
     </section>
     ";
 }
+
+function makeQuestionButtonMenuMultipleResponse($question, $id, $buttons, $onValidation){
+    $menu = "<div>";
+
+    foreach ($buttons as $onclick => $content){
+        $menu .= "<p><input type='checkbox' name='$content'> $content</p>";
+    }
+    $menu .= "</div>";
+
+    return "
+        <section id='$id' class='question'>
+            <h2>$question</h2>
+            $menu
+            <button onclick='$onValidation'>Valider</button>
+        </section>
+    ";
+}
+
+function makeQuestiontextMenu($question, $id){
+
+    $inputId = $id . 'Value';
+
+    return "
+    <section id='$id' class='question'>
+        <h2>$question</h2>
+        <input type='text' id='$inputId'><br>
+        <button onclick='onTextValidation(\"$inputId\")'>Valider</button>
+    </section>
+    ";
+}

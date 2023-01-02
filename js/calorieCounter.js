@@ -48,34 +48,3 @@ function previousPage(){
     page -= page === 0 ? 0 : 1;
     openPage(page);
 }
-
-function onNumberValidation(id){
-    const result = document.getElementById(id).value;
-
-    //age case
-    if (id === "ageValue"){
-        if (result > 0 && result < 120){
-            nextPage(result);
-        }
-        else
-            alert("Votre age n'est pas valide !");
-    }
-
-    //height case
-    if (id === "tailleValue"){
-        if (result > 50 && result < 300){
-            nextPage(result);
-        }
-        else
-            alert("Votre taille n'est pas valide !");
-    }
-
-    //weight case
-    if (id === "poidsValue"){
-        if (result > 0 && result < 300){
-            nextPage(result);
-        }
-        else
-            alert("Votre poids n'est pas valide !");
-    }
-}

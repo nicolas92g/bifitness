@@ -128,3 +128,7 @@ input{
 #paypalContainer{
     width: min(80vw, 800px);
 }
+
+input[type='checkbox']{
+    transform: scale(1.5);
+}

@@ -46,4 +46,7 @@ $content = "
 
 ";
 
-echo genSiteContent($ROOT, $content, "<script type='text/javascript' src='$ROOT/js/calorieCounter.js'></script>");
+echo genSiteContent($ROOT, $content, "
+    <script type='text/javascript' src='$ROOT/js/calorieCounter.js'></script>
+    <script type='text/javascript' src='$ROOT/js/inputs.js'></script>
+");

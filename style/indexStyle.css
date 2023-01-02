@@ -70,7 +70,7 @@ body{
 }
 
 section:nth-of-type(1){
-    background: url("../assets/muscuBackground.jpg") no-repeat;
+    background: url("../assets/bilel.jpg") no-repeat;
     background-size: cover;
     background-position: center 0;
     background-attachment: fixed;
@@ -153,6 +153,10 @@ section a{
     color: inherit;
     text-decoration: underline;
     padding: 20px 0;
+    transition: transform .3s;
+}
+section a:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 1000px){
@@ -173,9 +177,13 @@ section a{
         display: none;
     }
     #menu a{
-        transition: all .3s;
+        transition: transform .3s;
     }
     #menu a:hover{
-        filter: invert(30%);
+        transform: scale(1.05);
+    }
+    section h1{
+        font-size: 90px;
+        margin: 30px;
     }
 }

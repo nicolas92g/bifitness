@@ -24,9 +24,10 @@ function genSiteContent($rootPath, $content, $optionalHeadContent = ""){
    return "
 
 <!DOCTYPE html>
-<html>
+<html lang='fr'>
     <head>
         <meta charset='utf-8'>
+        <link rel='icon' href='$rootPath/assets/icon.png'>
         <link rel='stylesheet' type='text/css' href='$rootPath/style/common.css'>
         <link rel='stylesheet' type='text/css' href='$rootPath/style/pages.css'>
         <meta name='viewport' content='width=device-width'>

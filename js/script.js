@@ -29,6 +29,15 @@ window.onresize = function(event){
     if (window.innerWidth < 1000){
         openBurgerMenu(false);
     }
-    else menu.style.transform = "none";
+    else {
+        openBurgerMenu(true);
+    }
+};
 
-}
+
+
+setInterval(function(){
+    if (window.innerWidth >= 1000){
+        openBurgerMenu(true);
+    }
+}, 500);

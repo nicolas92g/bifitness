@@ -3,6 +3,7 @@
 <html lang="fr">
     <head>
         <title>bifitness</title>
+        <link rel="icon"href="assets/icon.png">
         <!--    include css files    -->
         <link rel="stylesheet" type="text/css" href="style/common.css">
         <link rel="stylesheet" type="text/css" href="style/indexStyle.css">
