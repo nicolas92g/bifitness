@@ -91,20 +91,22 @@ $content = "
         
     </section>
     
-    $sexeQuestion
+    <!--$sexeQuestion
     $morphoHomme
     $zonesHomme
     $materiel
     $name
     $taille
     $poids
-    $poidsCible
+    $poidsCible-->
     
     <section>
         <h1>Votre programme est prêt !</h1>
         <h3 >Payez la somme de 49 € en clickant sur un des deux boutons pour accéder à votre programme.</h3>
-        <script src='https://www.paypal.com/sdk/js?client-id=Aa4PmO2vaaDYoc5KjNNuVopIhcLRPbVKih3Q0M2gx3_N6ddo975uGng8Woj9R_Yfax0odDdt6oQlVRlb&currency=EUR'></script>
-        <div id='paypal-button-container'></div>
+        <div id='paypal-button-container-P-4S598466X5491002MMOZLSHQ'></div>
+        <script src='https://www.paypal.com/sdk/js?client-id=AfimPJThlnFU1gw1uLBHJCiBg6mwOIZHyR70SiRqNlGzfED0uK8jrF1RYmSv_CqhOdEp3zVGZxHtYEBO&vault=true&intent=subscription' 
+            data-sdk-integration-source='button-factory'>
+        </script>
         <script src='../js/paypal.js'></script>
     </section>
     </div>

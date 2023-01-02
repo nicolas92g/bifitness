@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Playfair+Display&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
     box-sizing: border-box;
@@ -17,7 +15,7 @@ footer{
 html, body{
     margin: 0;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
 }
 
 

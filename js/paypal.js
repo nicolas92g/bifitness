@@ -20,33 +20,22 @@ function post(path, params, method='post') {
 
 paypal.Buttons({
     style: {
-        shape: 'rect',
-        color: 'gold',
+        shape: 'pill',
+        color: 'blue',
         layout: 'vertical',
-        label: '',
-
+        label: 'subscribe'
     },
-    // Sets up the transaction when a payment button is clicked
-    createOrder: (data, actions) => {
-        return actions.order.create({
-            purchase_units: [{
-                amount: {
-                    value: '49.0'
-                }
-            }]
+    createSubscription: function(data, actions) {
+        return actions.subscription.create({
+            /* Creates the subscription */
+            plan_id: 'P-4S598466X5491002MMOZLSHQ'
         });
     },
-    // Finalize the transaction after payer approval
     onApprove: function(data, actions) {
         return actions.order.capture().then(function(orderData) {
             let output = orderData;
-            output.sexe = 'h';
-            output.poids = "82";
+            output.test = "test";
             post('programmes/verif.php', output, 'POST');
         });
-    },
-
-    onError: function(err) {
-        console.log(err);
     }
-}).render('#paypal-button-container');
+}).render('#paypal-button-container-P-4S598466X5491002MMOZLSHQ'); // Renders the PayPal button

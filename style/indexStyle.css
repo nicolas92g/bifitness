@@ -5,21 +5,18 @@ body{
 #scrollArrow{
     position: fixed;
     bottom: 0;
-    width: 8vh;
+    width: 10vh;
     margin-left: -4vh;
     left: 50%;
 }
 
 #burgerMenu{
-    position: absolute;
     width: 45px;
     height: 40px;
-    border: 3px solid white;
-    border-radius: 5px;
+    /*border: 3px solid white;*/
+    /*border-radius: 5px;*/
     margin: 0;
     padding: 2px 0;
-    right: 20px;
-    top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -76,6 +73,17 @@ section:nth-of-type(1){
     background-attachment: fixed;
 }
 
+section ul{
+    padding: 20px 0 20px 40px;
+    border-radius: 10px;
+    /*background-color: rgba(0,0,0,.5);*/
+    text-align: left;
+}
+
+section li{
+    margin: 8px;
+}
+
 section:nth-of-type(3){
     background: url("../assets/muscuBackground2.jpg") no-repeat;
     background-size: cover;
@@ -83,7 +91,7 @@ section:nth-of-type(3){
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 section:nth-of-type(5){
@@ -118,7 +126,7 @@ section:nth-of-type(5){
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 10px 10vh;
+    padding: 20px 10px 10vh;
 }
 
 .imgBackground h2{
@@ -129,8 +137,8 @@ section:nth-of-type(5){
 }
 
 section h1{
-    font-size: 70px;
-    margin: 30px;
+    font-size: 25px;
+    margin: 0;
 }
 
 section div{
@@ -159,6 +167,25 @@ section a:hover{
     transform: scale(1.05);
 }
 
+#mobileHeader{
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    align-items: center;
+}
+
+#mobileHeader h2{
+    margin: 0;
+    font-size: 24px;
+}
+
+#mobileHeader img{
+    width: 40px;
+}
+
 @media screen and (min-width: 1000px){
     #burgerMenu{
         display: none;
@@ -183,7 +210,7 @@ section a:hover{
         transform: scale(1.05);
     }
     section h1{
-        font-size: 90px;
+        font-size: 50px;
         margin: 30px;
     }
 }

@@ -4,6 +4,7 @@ function makeHeader($rootPath){
     return "
     <header>
         <img alt='back' src='$rootPath/assets/back.svg' width='48' onclick='history.back()'>
+        <h3>BIFITNESS</h3>
         <img alt='logo' src='$rootPath/assets/icon.png' width='48' onclick='location.href = \"$rootPath/index.php\"'>   
     </header>
     ";
@@ -12,7 +13,7 @@ function makeFooter(){
     return "
     <footer>
         <p>
-            &copy; 2022 bifitness company 
+            &copy; 2022 bifitness company
         </p>
     </footer>
     ";

@@ -32,15 +32,18 @@
             <!-- first section of presentation -->
             <section class="container imgBackground">
                 <!-- burger menu is made with css -->
-                <div id="burgerMenu" onclick="openBurgerMenu(true)">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div id="mobileHeader">
+                    <img src="assets/icon.png" width="80" alt="headerIcon">
+                    <h2>BIFITNESS</h2>
+                    <div id="burgerMenu" onclick="openBurgerMenu(true)">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
                 <div></div>
                 <div>
-                    <H1>Bifitness</H1>
-                    <p>Le site qui t'aide à atteindre tes objectifs !</p>
+                    <h1>TRANSFORME TOI <br>DÈS MAINTENANT</h1>
                 </div>
                 <div></div>
 <!--                <img src="assets/icon.png" width="100" alt="icon">-->
@@ -56,13 +59,17 @@
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
                 <div></div>
-                <div>
-                    <H2>Programmes personalisés</H2>
-                    <p>
-                        Obtenez votre programme personnalisé de musculation et nutrition en quelques questions !
-                    </p>
-                </div>
+                <h2>Suivi personalisé</h2>
+                <ul>
+                    <li>Diète complète personnalisé</li>
+                    <li>Entraînement personnalisé</li>
+                    <li>Envoi mensuel</li>
+                    <li>Accompagnement 7j/7</li>
+                    <li>Adapté à ton rythme de vie</li>
+                    <li>Conseils sur la nutrition & l’entraînement</li>
+                </ul>
                 <button onclick="location.href='pages/programmes.php'">Obtenir mon programme !</button>
+                <div></div>
             </section>
             <!-- "ENTRAINEMENT" section -->
             <section class="container textContainer">
