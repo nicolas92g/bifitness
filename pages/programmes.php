@@ -24,24 +24,15 @@ $morphoFemme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morpho
 
 $objectifHomme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifHomme",
     [
-        "nextPage(\"athletique\")" => "Physique athlétique",
-        "nextPage(\"massif\")" => "Physique massif",
-        "nextPage(\"sec\")" => "Physique sec"
+        "nextPage(\"masse\")" => "prise de masse",
+        "nextPage(\"seche\")" => "sèche"
     ]);
 
-$objectifFemme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifFemme",
-    [
-        "nextPage(\"fine\")" => "Fine",
-        "nextPage(\"athletique\")" => "Physique athlétique",
-        "nextPage(\"formes\")" => "Formes"
-    ]);
 
-$objectif2Femme = makeQuestionButtonMenu("précise tes objectif !", "objectif2Femme",
+$objectifFemme = makeQuestionButtonMenu("précise tes objectif !", "objectifFemme",
     [
-        "nextPage(\"ventre\")" => "Ventre plat",
-        "nextPage(\"fesses\")" => "Fesses galbées",
-        "nextPage(\"jambes\")" => "Jambes fines",
-        "nextPage(\"poitrine\")" => "Poitrine ferme"
+        "nextPage(\"forme\")" => "prendre des formes",
+        "nextPage(\"affiner\")" => "s'affiner"
     ]);
 
 $zonesHomme = makeQuestionButtonMenuMultipleResponse("Quelles zones du corps veut tu développer ?", "zones",
@@ -73,6 +64,16 @@ $poids = makeQuestionNumberMenu("Quel est votre poids ?", "poids", "kg");
 
 $poidsCible = makeQuestionNumberMenu("Quel est votre poids cible ?", "poidsCible", "kg");
 
+$age = makeQuestionNumberMenu("Quel est votre age ?", "age", "ans");
+
+$nbrSeance = makeQuestionButtonMenu("Combien de fois peut-tu t'entraîner par semaine ?", "nbrSeance",
+    [
+        "nextPage(3)" => " 3 ",
+        "nextPage(4)" => " 4 ",
+        "nextPage(5)" => " 5 ",
+        "nextPage(6)" => " 6 "
+    ]);
+
 $content = "
 <div class='pageContainer'>
     <div>
@@ -87,27 +88,27 @@ $content = "
             </p>
         </div>
         
-        <button onclick='nextPage(\"\")'>Appuyez pour commencer</button>
+        <button onclick='nextPage(\"\")'>Appuyez pour commencer</button>            
         
     </section>
     
-    <!--$sexeQuestion
-    $morphoHomme
-    $zonesHomme
-    $materiel
-    $name
-    $taille
+    $sexeQuestion
     $poids
-    $poidsCible-->
-    
+    $objectifHomme
+    $nbrSeance
     <section>
-        <h1>Votre programme est prêt !</h1>
-        <h3 >Payez la somme de 49 € en clickant sur un des deux boutons pour accéder à votre programme.</h3>
-        <div id='paypal-button-container-P-4S598466X5491002MMOZLSHQ'></div>
-        <script src='https://www.paypal.com/sdk/js?client-id=AfimPJThlnFU1gw1uLBHJCiBg6mwOIZHyR70SiRqNlGzfED0uK8jrF1RYmSv_CqhOdEp3zVGZxHtYEBO&vault=true&intent=subscription' 
-            data-sdk-integration-source='button-factory'>
-        </script>
-        <script src='../js/paypal.js'></script>
+        <div id='checkoutPage'>
+            <div>
+                <h1>Votre programme est prêt !</h1>
+                <h3 >Abonnez vous à notre offre premium pour recevoir votre programme tous les mois !</h3>  
+            </div>
+            
+            <div id='paypal-button-container'></div>
+            
+            <script src='https://www.paypal.com/sdk/js?client-id=test&currency=EUR&vault=true&intent=subscription' data-sdk-integration-source='integrationbuilder'></script>
+            <script src='../js/programmes.js'></script>
+            <script src='../js/paypal.js'></script>
+        </div>
     </section>
     </div>
 </div>

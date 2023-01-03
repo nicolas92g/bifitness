@@ -29,8 +29,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     padding: 80px 20px 20px;
-    background-color: inherit;
     text-align: center;
+    background-color: #EEE;
 }
 
 .pageTextContainer{
@@ -44,6 +44,17 @@ body{
 
 .pageTextContainer p{
     text-align: left;
+}
+
+.pageContainer a{
+    display: block;
+    margin: 8px;
+    padding: 20px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 1px 2px 2px rgba(0,0,0, .3);
+    background: white;
 }
 
 button{
@@ -75,16 +86,6 @@ img[alt="logo"]:hover{
 
 a{
     color: inherit;
-}
-
-.pageContainer a{
-    display: block;
-    margin: 8px;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 6px;
-    text-decoration: none;
-    box-shadow: 1px 2px 2px rgba(0,0,0, .3);
 }
 
 iframe{
@@ -138,4 +139,11 @@ input{
 
 input[type='checkbox']{
     transform: scale(1.5);
+}
+
+#checkoutPage{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

@@ -18,24 +18,51 @@ function post(path, params, method='post') {
     form.submit();
 }
 
-paypal.Buttons({
-    style: {
-        shape: 'pill',
-        color: 'blue',
-        layout: 'vertical',
-        label: 'subscribe'
-    },
-    createSubscription: function(data, actions) {
-        return actions.subscription.create({
-            /* Creates the subscription */
-            plan_id: 'P-4S598466X5491002MMOZLSHQ'
-        });
-    },
-    onApprove: function(data, actions) {
-        return actions.order.capture().then(function(orderData) {
-            let output = orderData;
-            output.test = "test";
-            post('programmes/verif.php', output, 'POST');
-        });
+const fundingSources = [
+    paypal.FUNDING.PAYPAL,
+    paypal.FUNDING.CREDIT,
+    paypal.FUNDING.CARD
+];
+
+for (const fundingSource of fundingSources) {
+    const paypalButtonsComponent = paypal.Buttons({
+        fundingSource: fundingSource,
+
+        // optional styling for buttons
+        // https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/
+
+        style: {
+            shape: "pill",
+            height: 40,
+            label: "subscribe"
+        },
+
+        // set up the recurring transaction
+        createSubscription: (data, actions) => {
+            // replace with your subscription plan id
+            // https://developer.paypal.com/docs/subscriptions/#link-createplan
+            return actions.subscription.create({
+                plan_id: "P-3RX065706M3469222L5IFM4I"
+            });
+        },
+
+        // notify the buyer that the subscription is successful
+        onApprove: (data, actions) => {
+            console.log(data);
+            post("programmes/verif.php", results);
+        },
+
+        // handle unrecoverable errors
+        onError: (err) => {
+
+        }
+    });
+
+    if (paypalButtonsComponent.isEligible()) {
+        paypalButtonsComponent
+            .render("#paypal-button-container")
+            .catch((err) => {
+
+            });
     }
-}).render('#paypal-button-container-P-4S598466X5491002MMOZLSHQ'); // Renders the PayPal button
+}
