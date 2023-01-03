@@ -5,15 +5,15 @@ include(ROOT . "/source/pagesFunctions.php");
 
 
 $menuContent = [
-    "pages/exercices/exercicesAbdos.php" => "Les adbominaux",
-    "pages/exercices/exercicesAvantBras.php" => "Les avant-bras",
-    "pages/exercices/exercicesBiceps.php" => "Les biceps",
-    "pages/exercices/exercicesDorsaux.php" => "Les dorsaux",
-    "pages/exercices/exercicesEpaule.php" => "Les épaules",
-    "pages/exercices/exercicesJambe.php" => "Les jambes",
-    "pages/exercices/exercicesMollets.php" => "Les mollets",
-    "pages/exercices/exercicesPectoraux.php" => "Les pectoraux",
-    "pages/exercices/exercicesTriceps.php" => "Les triceps",
+    "pages/exercices/exercicesAbdos.php" => "ABDOMINAUX",
+    "pages/exercices/exercicesAvantBras.php" => "Avant-bras",
+    "pages/exercices/exercicesBiceps.php" => "BICEPS",
+    "pages/exercices/exercicesDorsaux.php" => "Dorsaux",
+    "pages/exercices/exercicesEpaule.php" => "Épaules",
+    "pages/exercices/exercicesJambe.php" => "Jambes / Fessier / Mollets",
+    "pages/exercices/exercicesMollets.php" => "HIIT / CARDIO ",
+    "pages/exercices/exercicesPectoraux.php" => "Pectoraux",
+    "pages/exercices/exercicesTriceps.php" => "Triceps",
 ];
 
 $menu = makeSelectMenu(ROOT, $menuContent);
