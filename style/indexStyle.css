@@ -86,7 +86,7 @@ section li{
 
 section:nth-of-type(3){
     background: url("../assets/muscuBackground2.jpg") no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center 0;
     background-attachment: fixed;
     display: flex;
@@ -96,7 +96,7 @@ section:nth-of-type(3){
 
 section:nth-of-type(5){
     background: url("../assets/nutrition.jpeg") no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: right 0;
     background-attachment: fixed;
     display: flex;
