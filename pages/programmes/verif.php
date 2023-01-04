@@ -152,8 +152,7 @@ else{
     $content = "
         <section class='pageContainer'>
             <h1>Merci d'avoir choisi bifitness !</h1>
-            <a href='pdfs/$pdfTraining.pdf' download>Clicker pour télécharger votre programme entrainement</a>
-            <a href='pdfs/$pdfNutrition.pdf' download>Clicker pour télécharger votre programme nutrition</a>
+            <p>Vérifier votre boîte mail nous vous avons envoyé vos programmes à l'adresse suivante : GrosTroncDeBilel@chibrax.com</p>
         </section>
     ";
 
@@ -170,9 +169,63 @@ else{
         $mail->isHTML();
         $mail->Subject = 'Votre Programme Bifitness';
         $mail->Body = "
-            <h1>Merci d'avoir Choisi Bifitness !</h1>
-            <p>Vous trouverez un programme musculation et nutrition en pièce jointe.</p>
-            <h3>Amusez vous bien ! <b>(Bilou pête moi le fiac !!!)</b></h3>
+            
+            <html>
+                <header>
+                    <div class='limited'>
+                        <img src='https://bifitness.fr/assets/icon.png' alt='Logo de Bifitness'>
+                        <h2>BIFITNESS</h2>
+                        <div></div>
+                    </div>
+                </header>
+                <main class='limited'>
+                    <h1>Merci d'avoir Choisi Bifitness !</h1>
+                    <p>Vous trouverez un programme musculation et nutrition en pièce jointe.</p>
+                    <h3>Amusez vous bien ! <b>(Bilou pête moi le fiac !!!)</b></h3>
+                </main>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+            
+                    html, body{
+                        font-family: 'Montserrat', sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: lightgray;
+                    }
+                    header{
+                        background-color: black;
+                        color: white;
+                        padding: 10px;
+                    }
+                    header > div{
+                        justify-content: space-between;
+                        align-items: center;
+                        display: flex;
+                    }
+                    header > div > div{
+                        width: 60px;
+                    }
+                    header h2{
+                        margin: 0;
+                    }
+                    header img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                    main{
+                        padding: 30px;
+                        background-color: white;
+                        height: 100%;
+                    }
+                    main h1{
+                        text-decoration: underline;
+                    }
+                    .limited{
+                        max-width: 700px;
+                        margin: auto;
+                    }
+                </style>
+            </html>
         ";
 
         $mail->send();
