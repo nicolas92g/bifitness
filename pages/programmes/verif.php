@@ -6,7 +6,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
 const SEXE = 1;
@@ -155,6 +154,15 @@ else{
             <a href='pdfs/$pdfNutrition.pdf' download>Clicker pour télécharger votre programme nutrition</a>
         </section>
     ";
+
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'user@example.com';                     //SMTP username
+    $mail->Password   = 'secret';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;
 
     $mail->From      = 'bilel.msa@bifitness.fr';
     $mail->FromName  = 'Bilel Moussa';
