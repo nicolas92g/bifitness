@@ -10,7 +10,7 @@ $content = "
 
 <section class='pageContainer'>
     <div>
-        <h1>Les exercices pour les biceps</h1>
+        <h1>Exercices Biceps</h1>
         $menu
     </div>
 </section>
