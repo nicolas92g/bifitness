@@ -5,7 +5,7 @@ include ("../source/pagesFunctions.php");
 $sexeQuestion = makeQuestionButtonMenu("Quelle est votre sexe ?", "sexe",
     [
         "nextPage(\"h\")" => "Homme",
-        "nextPage(\"f\")" => "Femme"
+        "nextPage(\"f\"); nextPage(\"\")" => "Femme"
     ]);
 
 $morphoHomme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morphoHomme",
@@ -24,12 +24,12 @@ $morphoFemme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morpho
 
 $objectifHomme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifHomme",
     [
-        "nextPage(\"masse\")" => "prise de masse",
-        "nextPage(\"seche\")" => "sèche"
+        "nextPage(\"masse\"); nextPage(\"\")" => "prise de masse",
+        "nextPage(\"seche\"); nextPage(\"\")" => "sèche"
     ]);
 
 
-$objectifFemme = makeQuestionButtonMenu("précise tes objectif !", "objectifFemme",
+$objectifFemme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifFemme",
     [
         "nextPage(\"forme\")" => "prendre des formes",
         "nextPage(\"affiner\")" => "s'affiner"
@@ -93,8 +93,9 @@ $content = "
     </section>
     
     $sexeQuestion
-    $poids
     $objectifHomme
+    $objectifFemme
+    $poids
     $nbrSeance
     <section>
         <div id='checkoutPage'>
