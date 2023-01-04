@@ -208,7 +208,7 @@ else{
     $headers = "From: bilel@bifitness.com" . "\r\n" .
         "CC: bifitness.msa@gmail.com";
 
-    mail($to,$subject,$txt,$headers);
+    mail($to,$subject,$message,$headers);
 }
 
 echo genSiteContent("../..", $content, );
