@@ -1,6 +1,6 @@
 <?php
 include("../../source/siteStructure.php");
-require_once("../../source/PHPMailer/src/PHPMailer.php");
+require_once("../../source/PHPMailer/src/class.PHPMailer.php");
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -155,12 +155,11 @@ else{
         </section>
     ";
 
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'user@example.com';                     //SMTP username
-    $mail->Password   = 'secret';                               //SMTP password
+    $mail->Username   = 'bilel.msa@bifitness.com';                     //SMTP username
+    $mail->Password   = 'Bifitness2003';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;
 
