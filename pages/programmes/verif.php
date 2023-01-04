@@ -183,8 +183,8 @@ else{
         $mail->addAddress('bifitness.msa@gmail.com');
 
         //pdfs
-        $mail->addAttachment("../../../pages/programmes/pdfs/$pdfTraining.pdf", "ProgrammeMusculationBifitness.pdf");
-        $mail->addAttachment("../../../pages/programmes/pdfs/$pdfNutrition.pdf", "ProgrammeNutritionBifitness.pdf");
+        $mail->addAttachment("pdfs/$pdfTraining.pdf", "ProgrammeMusculationBifitness.pdf");
+        //$mail->addAttachment("../../../pages/programmes/pdfs/$pdfNutrition.pdf", "ProgrammeNutritionBifitness.pdf");
 
         //contenu
         $mail->isHTML();
