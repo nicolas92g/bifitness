@@ -159,7 +159,7 @@ else{
     $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'bilel.msa@bifitness.com';                     //SMTP username
-    $mail->Password   = 'Bifitness2003';                               //SMTP password
+    $mail->Password   = 'Bifitness2003+';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;
 
