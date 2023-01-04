@@ -153,8 +153,8 @@ else{
 
 
     $email = new PHPMailer();
-    $email->From      = 'you@example.com';
-    $email->FromName  = 'Your Name';
+    $email->From      = 'bilel.msa@bifitness.fr';
+    $email->FromName  = 'Bilel Moussa';
     $email->Subject   = 'EnormeTarlouze.com';
     $email->Body      = "coucou les pds";
     $email->AddAddress( 'bifitness.msa@gmail.com' );
@@ -163,7 +163,7 @@ else{
 
     //$email->AddAttachment( $file_to_attach , 'NameOfFile.pdf' );
 
-    return $email->Send();
+    $email->Send();
 }
 
 echo genSiteContent("../..", $content, );
