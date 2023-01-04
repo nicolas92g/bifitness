@@ -11,7 +11,7 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     
-    <iframe src='https://www.youtube.com/embed/xtjdKR-wsVo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+    <iframe src='https://www.youtube.com/embed/xtjdKR-wsV' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
 </section>
 
 
