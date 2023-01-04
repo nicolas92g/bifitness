@@ -1,6 +1,6 @@
 <?php
 include("../../source/siteStructure.php");
-require_once("../../source/PHPMailer/src/class.PHPMailer.php");
+require_once("../../source/PHPMailer/src/PHPMailer.php");
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
