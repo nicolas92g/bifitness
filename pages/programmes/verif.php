@@ -205,8 +205,7 @@ else{
     $to = "bifitness.msa@gmail.com";
     $subject = "My subject";
     $txt = "Hello world!";
-    $headers = "From: bilel@bifitness.com" . "\r\n" .
-        "CC: bifitness.msa@gmail.com";
+    //$headers = "From: bilel@bifitness.com" . "\r\n" . "CC: bifitness.msa@gmail.com";
 
     mail($to,$subject,$message,$headers);
 }
