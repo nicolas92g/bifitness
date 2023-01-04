@@ -1,6 +1,8 @@
 <?php
 include("../../source/siteStructure.php");
-include("../../source/PHPMailer/src/PHPMailer.php");
+require_once("../../source/PHPMailer/src/PHPMailer.php");
+
+use PHPMailer\PHPMailer\PHPMailer;
 
 const SEXE = 1;
 const OBJECTIF_HOMME = 2;
