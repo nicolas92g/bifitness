@@ -68,7 +68,7 @@ body{
 
 section:nth-of-type(1){
     background: url("../assets/bilel.png") no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center 0;
     background-attachment: fixed;
 }
