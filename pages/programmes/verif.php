@@ -148,6 +148,8 @@ else{
         </section>
     ";
 
+    // Recipient
+    $to = 'bifitness.msa@gmail.com';
 
 // Sender
     $from = 'bilel@bifitness.fr';
@@ -197,9 +199,16 @@ else{
     $message .= "--{$mime_boundary}--";
     $returnpath = "-f" . $from;
 
-    $to = "bifitness.msa@gmail.com";
+// Send email
+    //$mail = @mail($to, $subject, $message, $headers, $returnpath);
 
-    mail($to,$subject,$message,$headers);
+    $to = "bifitness.msa@gmail.com";
+    $subject = "My subject";
+    $txt = "Hello world!";
+    $headers = "From: bilel@bifitness.com" . "\r\n" .
+        "CC: bifitness.msa@gmail.com";
+
+    mail($to,$subject,$txt,$headers);
 }
 
 echo genSiteContent("../..", $content, );
