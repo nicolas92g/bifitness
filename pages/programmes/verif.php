@@ -157,25 +157,48 @@ else{
         </section>
     ";
 
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'bilel.msa@bifitness.com';                     //SMTP username
-    $mail->Password   = 'Bifitness2003+';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;
+//    $mail->isSMTP();                                            //Send using SMTP
+//    $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
+//    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+//    $mail->Username   = 'bilel.msa@bifitness.com';                     //SMTP username
+//    $mail->Password   = 'Bifitness2003+';                               //SMTP password
+//    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+//    $mail->Port       = 465;
+//
+//    $mail->From      = 'bilel.msa@bifitness.fr';
+//    $mail->FromName  = 'Bilel Moussa';
+//    $mail->Subject   = 'EnormeTarlouze.com';
+//    $mail->Body      = "coucou les pds";
+//    $mail->AddAddress( 'bifitness.msa@gmail.com' );
+//
+//    //$file_to_attach = 'PATH_OF_YOUR_FILE_HERE';
+//
+//    //$email->AddAttachment( $file_to_attach , 'NameOfFile.pdf' );
+//
+//    $mail->Send();
 
-    $mail->From      = 'bilel.msa@bifitness.fr';
-    $mail->FromName  = 'Bilel Moussa';
-    $mail->Subject   = 'EnormeTarlouze.com';
-    $mail->Body      = "coucou les pds";
-    $mail->AddAddress( 'bifitness.msa@gmail.com' );
-
-    //$file_to_attach = 'PATH_OF_YOUR_FILE_HERE';
-
-    //$email->AddAttachment( $file_to_attach , 'NameOfFile.pdf' );
-
-    $mail->Send();
+    try {
+        /* Set the mail sender. */
+        $mail->setFrom('bilel.msa@bifitness.com');
+        /* Add a recipient. */
+        $mail->addAddress('bifitness.msa@gmail.com');
+        /* Set the subject. */
+        $mail->Subject = 'Force';
+        /* Set the mail message body. */
+        $mail->Body = 'There is a great disturbance in the Force.';
+        /* Finally send the mail. */
+        $mail->send();
+    }
+    catch (Exception $e)
+    {
+        /* PHPMailer exception. */
+        echo $e->errorMessage();
+    }
+    catch (\Exception $e)
+    {
+        /* PHP exception (note the backslash to select the global namespace Exception class). */
+        echo $e->getMessage();
+    }
 }
 
 echo genSiteContent("../..", $content, );
