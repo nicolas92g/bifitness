@@ -3,6 +3,11 @@ include("../../source/siteStructure.php");
 require_once("../../source/PHPMailer/src/PHPMailer.php");
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
 
 const SEXE = 1;
 const OBJECTIF_HOMME = 2;
@@ -151,19 +156,17 @@ else{
         </section>
     ";
 
-
-    $email = new PHPMailer();
-    $email->From      = 'bilel.msa@bifitness.fr';
-    $email->FromName  = 'Bilel Moussa';
-    $email->Subject   = 'EnormeTarlouze.com';
-    $email->Body      = "coucou les pds";
-    $email->AddAddress( 'bifitness.msa@gmail.com' );
+    $mail->From      = 'bilel.msa@bifitness.fr';
+    $mail->FromName  = 'Bilel Moussa';
+    $mail->Subject   = 'EnormeTarlouze.com';
+    $mail->Body      = "coucou les pds";
+    $mail->AddAddress( 'bifitness.msa@gmail.com' );
 
     //$file_to_attach = 'PATH_OF_YOUR_FILE_HERE';
 
     //$email->AddAttachment( $file_to_attach , 'NameOfFile.pdf' );
 
-    $email->Send();
+    $mail->Send();
 }
 
 echo genSiteContent("../..", $content, );
