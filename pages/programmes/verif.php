@@ -178,15 +178,23 @@ else{
 //    $mail->Send();
 
     try {
-        /* Set the mail sender. */
+        //addresses
         $mail->setFrom('bilel.msa@bifitness.com');
-        /* Add a recipient. */
         $mail->addAddress('bifitness.msa@gmail.com');
-        /* Set the subject. */
-        $mail->Subject = 'Force';
-        /* Set the mail message body. */
-        $mail->Body = 'There is a great disturbance in the Force.';
-        /* Finally send the mail. */
+
+        //pdfs
+        $mail->addAttachment("pdfs/$pdfTraining.pdf", "ProgrammeMusculationBifitness.pdf");
+        $mail->addAttachment("pdfs/$pdfNutrition.pdf", "ProgrammeNutritionBifitness.pdf");
+
+        //contenu
+        $mail->isHTML();
+        $mail->Subject = 'Votre Programme Bifitness';
+        $mail->Body = "
+            <h1>Merci d'avoir Choisi Bifitness !</h1>
+            <p>Vous trouverez un programme musculation et nutrition en pièce jointe.</p>
+            <h3>Amusez vous bien ! <b>(Bilou pête moi le fiac !!!)</b></h3>
+        ";
+
         $mail->send();
     }
     catch (Exception $e)
