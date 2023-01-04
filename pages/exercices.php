@@ -5,13 +5,13 @@ include(ROOT . "/source/pagesFunctions.php");
 
 
 $menuContent = [
-    "pages/exercices/exercicesAbdos.php" => "ABDOMINAUX",
+    "pages/exercices/exercicesAbdos.php" => "Abdominaux",
     "pages/exercices/exercicesAvantBras.php" => "Avant-bras",
-    "pages/exercices/exercicesBiceps.php" => "BICEPS",
+    "pages/exercices/exercicesBiceps.php" => "Biceps",
     "pages/exercices/exercicesDorsaux.php" => "Dorsaux",
     "pages/exercices/exercicesEpaule.php" => "Épaules",
     "pages/exercices/exercicesJambe.php" => "Jambes / Fessier / Mollets",
-    "pages/exercices/exercicesMollets.php" => "HIIT / CARDIO ",
+    "pages/exercices/exercicesMollets.php" => "Hiit / Cardio ",
     "pages/exercices/exercicesPectoraux.php" => "Pectoraux",
     "pages/exercices/exercicesTriceps.php" => "Triceps",
 ];
