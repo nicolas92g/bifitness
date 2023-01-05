@@ -8,18 +8,11 @@ $sexeQuestion = makeQuestionButtonMenu("Quelle est votre sexe ?", "sexe",
         "nextPage(\"f\"); nextPage(\"\")" => "Femme"
     ]);
 
-$morphoHomme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morphoHomme",
+$morpho = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morpho",
     [
-        "nextPage(\"mince\");nextPage(\"\");" => "Mince",
-        "nextPage(\"normal\");nextPage(\"\");" => "Normal",
-        "nextPage(\"rond\");nextPage(\"\");" => "Rond"
-    ]);
-
-$morphoFemme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morphoFemme",
-    [
-        "nextPage(\"fine\")" => "Fine",
-        "nextPage(\"normale\")" => "Normale",
-        "nextPage(\"ronde\")" => "Ronde"
+        "nextPage(\"mince\");nextPage(\"\");" => "physique mince",
+        "nextPage(\"normal\");nextPage(\"\");" => "physique normal",
+        "nextPage(\"rond\");nextPage(\"\");" => "physique rond"
     ]);
 
 $objectifHomme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifHomme",
@@ -75,6 +68,7 @@ $content = "
     $sexeQuestion
     $objectifHomme
     $objectifFemme
+    $morpho
     $name
     $taille
     $poids

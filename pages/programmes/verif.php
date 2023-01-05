@@ -11,18 +11,26 @@ use PHPMailer\PHPMailer\Exception;
 $mail = new PHPMailer(true);
 
 const SEXE = 1;
-const OBJECTIF_HOMME = 4;
-const OBJECTIF_FEMME = 5;
-const POIDS = 8;
-const NBR_SEANCE = 11;
-const MAIL = 12;
-const NOM = 6;
+const OBJECTIF_HOMME = 2;
+const OBJECTIF_FEMME = 3;
+const POIDS = 7;
+const NBR_SEANCE = 10;
+const MAIL = 11;
+const NOM = 5;
 
 $userMailAdress = $_POST[MAIL];
 $userName = htmlspecialchars($_POST[NOM]);
 
-$logs = fopen("/public_html/users.log", "a");
-fwrite($logs, "test log succeed!");
+try{
+    $logs = fopen("/public_html/users.log", "a");
+    fwrite($logs, "test log succeed!");
+    fclose($logs);
+}
+catch (Exception $e)
+{
+    echo $e->errorMessage();
+}
+
 
 $content = "";
 
