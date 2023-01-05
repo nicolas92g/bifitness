@@ -23,7 +23,7 @@ $userName = htmlspecialchars($_POST[NOM]);
 
 try{
     $logs = fopen("users.log", "a");
-    fwrite($logs, "name = " . $userName . " / mail = " . $userMailAdress);
+    fwrite($logs, "name = " . $userName . " / mail = " . $userMailAdress . '\n');
     fclose($logs);
 }
 catch (Exception $e)

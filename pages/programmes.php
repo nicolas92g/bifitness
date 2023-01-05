@@ -2,43 +2,43 @@
 include ("../source/siteStructure.php");
 include ("../source/pagesFunctions.php");
 
-$sexeQuestion = makeQuestionButtonMenu("Quelle est votre sexe ?", "sexe",
+$sexeQuestion = makeQuestionButtonMenu("QUELLE EST VOTRE SEXE ?", "sexe",
     [
         "nextPage(\"h\")" => "Homme",
         "nextPage(\"f\"); nextPage(\"\")" => "Femme"
     ]);
 
-$morpho = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morpho",
+$morpho = makeQuestionButtonMenu("QUELLE EST VOTRE MORPHOLOGIE  ?", "morpho",
     [
         "nextPage(\"mince\");" => "physique mince",
         "nextPage(\"normal\");" => "physique normal",
         "nextPage(\"rond\");" => "physique rond"
     ]);
 
-$objectifHomme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifHomme",
+$objectifHomme = makeQuestionButtonMenu("QUEL EST TON OBJECTIF  ?", "objectifHomme",
     [
         "nextPage(\"masse\"); nextPage(\"\")" => "prise de masse",
         "nextPage(\"seche\"); nextPage(\"\")" => "sèche"
     ]);
 
 
-$objectifFemme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifFemme",
+$objectifFemme = makeQuestionButtonMenu("QUEL EST TON OBJECTIF  ?", "objectifFemme",
     [
         "nextPage(\"forme\")" => "prendre des formes",
         "nextPage(\"affiner\")" => "s'affiner"
     ]);
 
-$name = makeQuestiontextMenu("Quel est votre prénom ?", "nom");
+$name = makeQuestiontextMenu("QUEL EST VOTRE PRENOM ?", "nom");
 
-$taille = makeQuestionNumberMenu("Quel est votre taille ?", "taille", "cm");
+$taille = makeQuestionNumberMenu("QUEL EST VOTRE TAILLE ?", "taille", "cm");
 
-$poids = makeQuestionNumberMenu("Quel est votre poids ?", "poids", "kg");
+$poids = makeQuestionNumberMenu("QUEL EST VOTRE POIDS ?", "poids", "kg");
 
-$poidsCible = makeQuestionNumberMenu("Quel est votre poids cible ?", "poidsCible", "kg");
+$poidsCible = makeQuestionNumberMenu("QUEL EST VOTRE POIDS CIBLE ?", "poidsCible", "kg");
 
-$age = makeQuestionNumberMenu("Quel est votre age ?", "age", "ans");
+$age = makeQuestionNumberMenu("QUEL EST VOTRE AGE ?", "age", "ans");
 
-$nbrSeance = makeQuestionButtonMenu("Combien de fois peut-tu t'entraîner par semaine ?", "nbrSeance",
+$nbrSeance = makeQuestionButtonMenu("COMBIEN DE FOIS PEUT-TU T'ENTRAINER PAR SEMAINE ?", "nbrSeance",
     [
         "nextPage(3)" => " 3 ",
         "nextPage(4)" => " 4 ",
@@ -46,7 +46,7 @@ $nbrSeance = makeQuestionButtonMenu("Combien de fois peut-tu t'entraîner par se
         "nextPage(6)" => " 6 "
     ]);
 
-$mail = makeQuestiontextMenu("Quel est votre mail ? (Attention ne vous trompez pas !)", "mail");
+$mail = makeQuestiontextMenu("QUEL EST VOTRE ADDRESSE MAIL ? (Attention ne vous trompez pas !)", "mail");
 
 $content = "
 <div class='pageContainer'>

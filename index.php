@@ -60,16 +60,19 @@
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
                 <div></div>
-                <h2>PROGRAMME PERSONNALISÉ</h2>
-                <ul>
-                    <li>Diète complète personnalisé</li>
-                    <li>Entraînement personnalisé</li>
-                    <li>Envoi mensuel</li>
-                    <li>Accompagnement 7j/7</li>
-                    <li>Adapté à ton rythme de vie</li>
-                    <li>Conseils sur la nutrition & l’entraînement</li>
-                </ul>
-                <button onclick="location.href='pages/programmes.php'">Découvrir</button>
+                <h3 id="progTitle">PROGRAMME PERSONNALISÉ</h3>
+                <h2 id="progPrice">19,99€/mois</h2>
+                <div id="progDiv">
+                    <ul>
+                        <li>Diète complète personnalisé</li>
+                        <li>Entraînement personnalisé</li>
+                        <li>Envoi mensuel</li>
+                        <li>Accompagnement 7j/7</li>
+                        <li>Adapté à ton rythme de vie</li>
+                        <li>Conseils sur la nutrition & l’entraînement</li>
+                    </ul>
+                    <button onclick="location.href='pages/programmes.php'" id="progButton">Générer mon programme</button>
+                </div>
                 <div></div>
             </section>
             <!-- "ENTRAINEMENT" section -->
