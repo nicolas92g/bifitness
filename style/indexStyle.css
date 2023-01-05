@@ -74,19 +74,6 @@ section:nth-of-type(1), section:nth-of-type(3), section:nth-of-type(5){
     background-size: cover;
 }
 
-/*section:nth-of-type(1):after, section:nth-of-type(3):after, section:nth-of-type(5):after{*/
-/*    z-index: -10;*/
-/*    content:"";*/
-/*    position:fixed;*/
-/*    left:0;*/
-/*    top:0;*/
-/*    right:0;*/
-/*    bottom:0;*/
-/*    display:block;*/
-/*    background: url("../assets/nutrition.jpeg") no-repeat;*/
-/*    background-size:cover;*/
-/*}*/
-
 section:nth-of-type(1)
 {
     background-image: url("../assets/bilel.png");
@@ -94,7 +81,7 @@ section:nth-of-type(1)
 
 section:nth-of-type(3)
 {
-    background-image: url("../assets/muscuBackground.jpg");
+    background-image: url("../assets/bibinoir.png");
 }
 
 section:nth-of-type(5)
