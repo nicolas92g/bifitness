@@ -30,7 +30,7 @@
 
         <main>
             <!-- first section of presentation -->
-            <section class="container imgBackground fixedBackground">
+            <section class="container imgBackground">
                 <!-- burger menu is made with css -->
                 <div id="mobileHeader">
                     <img src="assets/icon.png" width="80" alt="headerIcon">
@@ -97,5 +97,6 @@
         <?=makeFooter()?>
     </body>
     <!-- execute the javascript after the site creation -->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
 </html>
