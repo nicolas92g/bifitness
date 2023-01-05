@@ -15,6 +15,7 @@ const OBJECTIF_HOMME = 2;
 const OBJECTIF_FEMME = 3;
 const POIDS = 4;
 const NBR_SEANCE = 5;
+const MAIL = 6;
 
 $content = "";
 
@@ -152,14 +153,14 @@ else{
     $content = "
         <section class='pageContainer'>
             <h1>Merci d'avoir choisi bifitness !</h1>
-            <p>Vérifier votre boîte mail nous vous avons envoyé vos programmes à l'adresse suivante : GrosTroncDeBilel@chibrax.com</p>
+            <p>Vérifier votre boîte mail nous vous avons envoyé vos programmes à l'adresse suivante : $_POST[MAIL]</p>
         </section>
     ";
 
     try {
         //addresses
         $mail->setFrom('bilel.msa@bifitness.fr');
-        $mail->addAddress('bifitness.msa@gmail.com');
+        $mail->addAddress($_POST[MAIL]);
 
         //pdfs
         $mail->addAttachment("pdfs/$pdfTraining.pdf", "ProgrammeMusculationBifitness.pdf");
