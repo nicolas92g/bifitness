@@ -50,17 +50,17 @@
             </section>
             <!-- "EXERCICES" section -->
             <section class="container textContainer">
-                <H2>Exercices</H2>
+                <H2>EXERCICES</H2>
                 <p>
 
                     Découvre plus de 100 d' exercices de musculation classés par zones musculaires, pour travailler toute les parties du corps . Tous les exercices sont détaillés et accompagnés de d'une vidéo explicative, pour une bonne exécution.
                 </p>
-                <a href="pages/exercices.php">Découvrir !</a>
+                <a href="pages/exercices.php">Découvrir</a>
             </section>
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
                 <div></div>
-                <h2>Programme personalisé</h2>
+                <h2>PROGRAMME PERSONNALISÉ</h2>
                 <ul>
                     <li>Diète complète personnalisé</li>
                     <li>Entraînement personnalisé</li>
@@ -74,7 +74,7 @@
             </section>
             <!-- "ENTRAINEMENT" section -->
             <section class="container textContainer">
-                <H2>¨Programme d'essai gratuit </H2>
+                <H2>PROGRAMME D'ESSAI GRATUIT </H2>
                 <p>
                     Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
                 </p>
@@ -84,7 +84,7 @@
             <section class="container imgBackground">
                 <div></div>
                 <div>
-                    <H2>Nutrition</H2>
+                    <H2>NUTRITION</H2>
                     <p>
                         La nutrition joue un rôle essentiel si vous souhaitez progresser en musculation c'est le carburant de votre corps et de vos muscles
                     </p>
