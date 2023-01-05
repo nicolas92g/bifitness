@@ -10,9 +10,9 @@ $sexeQuestion = makeQuestionButtonMenu("Quelle est votre sexe ?", "sexe",
 
 $morpho = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morpho",
     [
-        "nextPage(\"mince\");nextPage(\"\");" => "physique mince",
-        "nextPage(\"normal\");nextPage(\"\");" => "physique normal",
-        "nextPage(\"rond\");nextPage(\"\");" => "physique rond"
+        "nextPage(\"mince\");" => "physique mince",
+        "nextPage(\"normal\");" => "physique normal",
+        "nextPage(\"rond\");" => "physique rond"
     ]);
 
 $objectifHomme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifHomme",
