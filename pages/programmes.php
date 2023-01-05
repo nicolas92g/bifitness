@@ -101,7 +101,7 @@ $content = "
     $nbrSeance
     $mail
     $name
-    <section>
+    <section class='question'>
         <div id='checkoutPage'>
             <div>
                 <h1>Votre programme est prêt !</h1>
