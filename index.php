@@ -52,7 +52,8 @@
             <section class="container textContainer">
                 <H2>Exercices</H2>
                 <p>
-                    Découvre des exercices de musculation classés par zones musculaires et expliqués par moi-même !
+
+                    Découvre plus de 100 d' exercices de musculation classés par zones musculaires, pour travailler toute les parties du corps . Tous les exercices sont détaillés et accompagnés de d'une vidéo explicative, pour une bonne exécution.
                 </p>
                 <a href="pages/exercices.php">Découvrir !</a>
             </section>
