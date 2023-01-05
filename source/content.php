@@ -45,14 +45,14 @@ $GLOBALS["exercicesBiceps"] = [
 ];
 
 $GLOBALS["exercicesDorsaux"] = [
+    "TractionBarreFixe.php" => "Traction à la barre fixe",
+    "TractionPriseNeutre.php" => "Traction prise neutre",
+    "TractionDeleste.php" => "Traction délesté",
     "RowingBarreBustePencheEnPronation.php" => "Rowing barre buste penché en pronation",
     "RowingUnBrasAvecHaltere.php" => "Rowing à un bras avec haltère",
     "ExtensionBancLombaires.php" => "Extension au banc à lombaires",
     "TiragePoulieHauteDevant.php" => "Tirage à la poulie haute devant",
     "TiragePoulieHautePriseNeutre.php" => "Tirage à la poulie haute prise neutre",
-    "TractionBarreFixe.php" => "Traction à la barre fixe",
-    "TractionDeleste.php" => "Traction délesté",
-    "TractionPriseNeutre.php" => "Traction prise neutre",
     "RowingAssisMachine.php" => "Rowing assis à la machine",
 ];
 
