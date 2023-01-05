@@ -64,18 +64,32 @@ body{
     font-size: 20px;
 }
 
+.fixedBackground{
+    background: transparent;
+}
+
+.fixedBackground:after{
+    z-index: -10;
+    content:"";
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    display:block;
+    background: url("../assets/nutrition.jpeg") no-repeat;
+    background-size:cover;
+}
+
 section:nth-of-type(1){
-    background: url("../assets/bilel.png") no-repeat;
-    background-size: 100vh;
-    background-position: center 0;
-    background-attachment: fixed;
+    /*background: url("../assets/bilel.png") no-repeat;*/
 }
 
 section:nth-of-type(3){
     background: url("../assets/muscuBackground.jpg") no-repeat;
-    background-size: 100vh;
-    background-position: center 0;
-    background-attachment: fixed;
+    /*background-size: 100vh;*/
+    /*background-position: center 0;*/
+    /*background-attachment: fixed;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -83,14 +97,10 @@ section:nth-of-type(3){
 
 section:nth-of-type(5){
     background: url("../assets/nutrition.jpeg") no-repeat;
-    background-size: 100vh;
-    background-position: center 0;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: calc(100vh - 74px);
-
 }
 
 section ul{

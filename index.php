@@ -30,7 +30,7 @@
 
         <main>
             <!-- first section of presentation -->
-            <section class="container imgBackground">
+            <section class="container imgBackground fixedBackground">
                 <!-- burger menu is made with css -->
                 <div id="mobileHeader">
                     <img src="assets/icon.png" width="80" alt="headerIcon">
