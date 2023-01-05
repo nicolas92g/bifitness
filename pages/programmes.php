@@ -36,7 +36,7 @@ $poids = makeQuestionNumberMenu("QUEL EST VOTRE POIDS ?", "poids", "kg");
 
 $poidsCible = makeQuestionNumberMenu("QUEL EST VOTRE POIDS CIBLE ?", "poidsCible", "kg");
 
-$age = makeQuestionNumberMenu("QUEL EST VOTRE AGE ?", "age", "ans");
+$age = makeQuestionNumberMenu("QUEL EST VOTRE AGE ?", "age", "années");
 
 $nbrSeance = makeQuestionButtonMenu("COMBIEN DE FOIS PEUT-TU T'ENTRAINER PAR SEMAINE ?", "nbrSeance",
     [

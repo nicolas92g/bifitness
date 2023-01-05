@@ -65,6 +65,8 @@ button{
     background-color: rgba(0,0,0, 0);
     transition: .3s all;
     color: black;
+    width: 90%;
+    margin: 5px;
 }
 
 img[alt='back']{
@@ -115,19 +117,21 @@ section h4{
     border-top: 1px solid black;
 }
 
-section button{
-    margin: 20px;
-}
-
 input{
     border: 2px solid black;
     border-radius: 8px;
     font-size: inherit;
     padding: 5px;
+    margin: 10px;
+    width: 90%;
 }
 
 .question{
     display: none;
+}
+
+.question h2{
+    font-size: 25px;
 }
 
 #intro{

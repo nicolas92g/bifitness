@@ -46,7 +46,7 @@ function makeQuestionNumberMenu($question, $id, $unit){
     return "
     <section id='$id' class='question'>
         <h2>$question</h2>
-        <input type='number' step='1' id='$inputId'><span> $unit</span><br>
+        <input type='number' step='1' id='$inputId' placeholder='Saisissez la valeur en $unit'><br>
         <button onclick='onNumberValidation(\"$inputId\")'>Valider</button>
     </section>
     ";
