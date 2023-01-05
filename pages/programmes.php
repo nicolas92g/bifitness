@@ -74,7 +74,7 @@ $nbrSeance = makeQuestionButtonMenu("Combien de fois peut-tu t'entraîner par se
         "nextPage(6)" => " 6 "
     ]);
 
-$mail = makeQuestiontextMenu("Quel est votre mail ? (Attention ne vous trompez pas !)", "id");
+$mail = makeQuestiontextMenu("Quel est votre mail ? (Attention ne vous trompez pas !)", "mail");
 
 $content = "
 <div class='pageContainer'>

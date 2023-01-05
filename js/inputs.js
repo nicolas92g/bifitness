@@ -39,4 +39,12 @@ function onTextValidation(id){
             alert("Votre nom est trop petit !");
         }
     }
+    else if (id === "mail"){
+        if (result.length > 1){
+            nextPage(result);
+        }
+        else{
+            alert("Votre mail n'est pas valide !");
+        }
+    }
 }
