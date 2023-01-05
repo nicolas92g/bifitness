@@ -16,12 +16,14 @@ const OBJECTIF_FEMME = 3;
 const POIDS = 4;
 const NBR_SEANCE = 5;
 const MAIL = 6;
+const NOM = 7;
 
 $userMailAdress = $_POST[MAIL];
+$userName = htmlspecialchars($_POST[NOM]);
 
 $content = "";
 
-if (false){
+if (!isset($_POST[SEXE])){
     $content = "
         <section class='pageContainer'>
             <h1>Votre requête est invalide !</h1>
@@ -172,9 +174,12 @@ else{
         $mail->isHTML();
         $mail->Subject = 'Votre Programme Bifitness';
         $mail->Body = "
-        <h1>Merci d'avoir Choisi Bifitness !</h1>
-        <p>Vous trouverez un programme musculation et nutrition en pièce jointe.</p>
-        <h3>Amusez vous bien ! <b>(Bilou pête moi le fiac !!!)</b></h3>
+        <p>Cher(e) $userName,<br>
+        Nous vous remercions d'avoir choisi bifitness !<br>
+        Vous trouverez dans ce mail un programme musculation et nutrition en pièce jointe.
+        Vous êtes désormais abonnés à l'abonnement Bifitness, vous recevrez donc votre programme mensuellement.
+        </p>
+        <h4>Bon entrainement et Amusez vous bien !</h4>
         ";
 
         $mail->send();

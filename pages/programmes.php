@@ -56,7 +56,7 @@ $materiel = makeQuestionButtonMenuMultipleResponse("Quel matériel as-tu ?", "ma
         "Kettlebell",
     ], "zonesFunction()");
 
-//$name = makeQuestiontextMenu("Quel est votre prénom ?", "nom");
+$name = makeQuestiontextMenu("Quel est votre prénom ?", "nom");
 
 $taille = makeQuestionNumberMenu("Quel est votre taille ?", "taille", "cm");
 
@@ -100,6 +100,7 @@ $content = "
     $poids
     $nbrSeance
     $mail
+    $name
     <section>
         <div id='checkoutPage'>
             <div>
