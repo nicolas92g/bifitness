@@ -20,8 +20,8 @@
                 <img src="assets/icon.png" width="80" alt="headerIcon">
                 <a href="pages/exercices.php" onclick="openBurgerMenu(false)">Exercices</a>
                 <a href="pages/nutrition.php" onclick="openBurgerMenu(false)">Nutrition</a>
-                <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Plan d'entrainement gratuit</a>
-                <a href="pages/programmes.php" onclick="openBurgerMenu(false)">Générateur de programme</a>
+                <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Programme d'essai gratuit</a>
+                <a href="pages/programmes.php" onclick="openBurgerMenu(false)"> Programme personnalisé</a>
 <!--                <a href="pages/presentation.php"  onclick="openBurgerMenu(false)">Qui suis-je ?</a>-->
             </nav>
             <!-- button that allow to close the application -->
@@ -50,17 +50,17 @@
             </section>
             <!-- "EXERCICES" section -->
             <section class="container textContainer">
-                <H2>Exercices</H2>
+                <H2>EXERCICES</H2>
                 <p>
 
                     Découvre plus de 100 d' exercices de musculation classés par zones musculaires, pour travailler toute les parties du corps . Tous les exercices sont détaillés et accompagnés de d'une vidéo explicative, pour une bonne exécution.
                 </p>
-                <a href="pages/exercices.php">Découvrir !</a>
+                <a href="pages/exercices.php">Découvrir</a>
             </section>
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
                 <div></div>
-                <h2>Suivi personalisé</h2>
+                <h2>PROGRAMME PERSONNALISÉ</h2>
                 <ul>
                     <li>Diète complète personnalisé</li>
                     <li>Entraînement personnalisé</li>
@@ -69,27 +69,27 @@
                     <li>Adapté à ton rythme de vie</li>
                     <li>Conseils sur la nutrition & l’entraînement</li>
                 </ul>
-                <button onclick="location.href='pages/programmes.php'">Obtenir mon programme !</button>
+                <button onclick="location.href='pages/programmes.php'">Découvrir</button>
                 <div></div>
             </section>
             <!-- "ENTRAINEMENT" section -->
             <section class="container textContainer">
-                <H2>Entrainement</H2>
+                <H2>PROGRAMME D'ESSAI GRATUIT </H2>
                 <p>
                     Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
                 </p>
-                <a href="pages/entrainement.php">Accéder à des programmes gratuits</a>
+                <a href="pages/entrainement.php">Découvrir</a>
             </section>
             <!-- "NUTRITION" section -->
             <section class="container imgBackground">
                 <div></div>
                 <div>
-                    <H2>Nutrition</H2>
+                    <H2>NUTRITION</H2>
                     <p>
                         La nutrition joue un rôle essentiel si vous souhaitez progresser en musculation c'est le carburant de votre corps et de vos muscles
                     </p>
                 </div>
-                <button onclick="location.href='pages/nutrition.php'">Découvrez maintenant !</button>
+                <button onclick="location.href='pages/nutrition.php'">Découvrir</button>
             </section>
         </main>
 
