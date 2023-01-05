@@ -10,9 +10,9 @@ $sexeQuestion = makeQuestionButtonMenu("Quelle est votre sexe ?", "sexe",
 
 $morphoHomme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morphoHomme",
     [
-        "nextPage(\"mince\")" => "Mince",
-        "nextPage(\"normal\")" => "Normal",
-        "nextPage(\"rond\")" => "Rond"
+        "nextPage(\"mince\");nextPage(\"\");" => "Mince",
+        "nextPage(\"normal\");nextPage(\"\");" => "Normal",
+        "nextPage(\"rond\");nextPage(\"\");" => "Rond"
     ]);
 
 $morphoFemme = makeQuestionButtonMenu("Quelle est votre morphologie  ?", "morphoFemme",
@@ -34,27 +34,6 @@ $objectifFemme = makeQuestionButtonMenu("Quelle est ton objectif  ?", "objectifF
         "nextPage(\"forme\")" => "prendre des formes",
         "nextPage(\"affiner\")" => "s'affiner"
     ]);
-
-$zonesHomme = makeQuestionButtonMenuMultipleResponse("Quelles zones du corps veut tu développer ?", "zones",
-    [
-        "Epaules",
-        "Dos",
-        "Bras",
-        "Pectoraux",
-        "Cuisses",
-        "Abdominaux",
-        "Mollets",
-        "Fesses",
-    ], "zonesFunction()");
-
-$materiel = makeQuestionButtonMenuMultipleResponse("Quel matériel as-tu ?", "materiel",
-    [
-        "Aucun matériel",
-        "Haltères",
-        "Barre de traction",
-        "Barre de musculation",
-        "Kettlebell",
-    ], "zonesFunction()");
 
 $name = makeQuestiontextMenu("Quel est votre prénom ?", "nom");
 
@@ -93,14 +72,16 @@ $content = "
         <button onclick='nextPage(\"\")'>Appuyez pour commencer</button>            
         
     </section>
-    
     $sexeQuestion
     $objectifHomme
     $objectifFemme
-    $poids
-    $nbrSeance
-    $mail
     $name
+    $taille
+    $poids
+    $poidsCible
+    $age
+    $nbrSeance    
+    $mail
     <section class='question'>
         <div id='checkoutPage'>
             <div>
