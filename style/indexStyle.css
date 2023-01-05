@@ -102,20 +102,6 @@ section:nth-of-type(5){
     height: calc(100vh - 74px);
 }
 
-section ul{
-    margin-top: 0;
-    border-radius: 10px;
-    /*background-color: rgba(0,0,0,.5);*/
-    text-align: left;
-}
-
-section li{
-    margin: 8px;
-    list-style-image: url("../assets/done.svg");
-}
-
-
-
 .container{
     width: 100%;
     padding: 20px;
@@ -130,7 +116,7 @@ section li{
 
 .textContainer p{
     padding: 0 20px;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 
@@ -144,8 +130,8 @@ section li{
     padding: 20px 10px 10vh;
 }
 
-.imgBackground h2{
-    font-size: 40px;
+h2{
+    font-size: 25px;
 }
 .imgBackground h2, .imgBackground p{
     text-shadow: 4px 4px 4px rgba(0, 0, 0, .6);
@@ -207,21 +193,44 @@ section a:hover{
 #progDiv{
     border: 4px solid white;
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
+    margin: 0px 30px;
+    font-size: 15px;
 }
 
 #progTitle{
     border-bottom: 4px solid green ;
+    font-size: 20px;
+    margin: 5px 0;
 }
 
 #progButton{
     background-color: #0eaf0e;
     border: none;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 #progPrice{
     margin: 0;
+    font-size: 30px;
+}
+
+.progLine{
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.progLine span{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+
+.progLine img{
+    height: 30px;
 }
 
 @media screen and (min-width: 1000px){
