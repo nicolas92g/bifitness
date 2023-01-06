@@ -22,7 +22,7 @@
                 <a href="pages/nutrition.php" onclick="openBurgerMenu(false)">Nutrition</a>
                 <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Programme d'essai gratuit</a>
                 <a href="pages/programmes.php" onclick="openBurgerMenu(false)">Programme personnalisé</a>
-                <a href="/pages/nutrition/CalculateurDeCalories.php" onclick="openBurgerMenu(false)">Calculateur de calories</a>
+                <a href="pages/nutrition/CalculateurDeCalories.php" onclick="openBurgerMenu(false)">Calculateur de calories</a>
 <!--                <a href="pages/presentation.php"  onclick="openBurgerMenu(false)">Qui suis-je ?</a>-->
             </nav>
             <!-- button that allow to close the application -->
@@ -127,7 +127,7 @@
                     combien de calories tu dois  consommer chaque jour pour maigrir, grossir ou rester au même poids ?
                     Découvre quels sont  tes besoins caloriques et maîtrise enfin ton poids.
                 </p>
-                <button onclick="location.href='pages/exercices.php'">Découvrir</button>
+                <button onclick="location.href='pages/nutrition/CalculateurDeCalories.php'">Découvrir</button>
             </section>
             <!-- "NUTRITION" section -->
             <section class="container imgBackground">
