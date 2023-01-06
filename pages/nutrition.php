@@ -4,11 +4,12 @@ include ("../source/pagesFunctions.php");
 const ROOT = "..";
 
 $structure = [
+    "pages/nutrition/CalculateurDeCalories.php" => "Calculateur de calories",
     "pages/nutrition/perteDePoids.php" => "Perte de poids",
     "pages/nutrition/priseDeMasse.php" => "Prise de masse",
     "pages/nutrition/seche.php" => "Sèche",
-    "pages/nutrition/conseilAlimentaire.php" => "Conseil alimentaire",
-    "pages/nutrition/CalculateurDeCalories.php" => "Calculateur de calories",
+    "pages/nutrition/conseilAlimentaire.php" => "Liste de course musculation",
+
 ];
 
 $menu = makeSelectMenu(ROOT, $structure);
