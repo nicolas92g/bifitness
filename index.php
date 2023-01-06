@@ -51,6 +51,8 @@
             </section>
             <!-- "EXERCICES" section -->
             <section class="container textContainer">
+
+
                 <H2>EXERCICES</H2>
                 <img src="assets/biceps.png" alt="biceps">
                 <p>
@@ -90,6 +92,21 @@
                     <button onclick="location.href='pages/programmes.php'" id="progButton" class="greenButton">Générer mon programme</button>
                 </div>
             </section>
+            <!--  -->
+            <section class="container textContainer">
+                <h2>Pourquoi prendre le programme Bifitness ?</h2>
+                <p>
+                    Également, je serais joignable 7j/7 pour répondre à tes questions si besoin, être à l’écoute et modifier en temps réel
+                    chaque détail du quotidien si nécessaire. Au cours de ta progression, je ferais évoluer tes diètes et tes entraînements
+                    afin que ton corps reste en constante évolution.
+                    Un bilan hebdomadaire aura lieu afin d’avoir un retour sur tes ressentis physiques, visuels et généraux (diète, sommeil,
+                    entraînements, rythme de vie ect…).
+                    Chaque début de mois, nous procéderons à un gros bilan afin de faire une mise au point sur ton évolution physique et sur
+                    l’avancement de tes objectifs.
+                    À la fin du suivi, tu auras appris à écouter ton corps, à devenir autonome sur l’évolution de ton physique et tu auras
+                    acquis un maximum de connaissances au niveau diététique et entraînement.
+                </p>
+            </section>
             <!-- "ENTRAINEMENT" section -->
             <section class="container imgBackground">
                 <div></div>
@@ -98,9 +115,19 @@
                     <p>
                         Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
                     </p>
-                    <button onclick="location.href='pages/entrainement.php'" class="greenButton">Découvrir</button>
+                    <button onclick="location.href='pages/entrainement.php'" class="">Découvrir</button>
                 </div>
                 <div></div>
+            </section>
+            <!-- "Celculateur de calories" section -->
+            <section class="container textContainer">
+                <H2>CALCULATEUR DE CALORIES</H2>
+                <img src="assets/calories.png" alt="calories">
+                <p>
+                    combien de calories tu dois  consommer chaque jour pour maigrir, grossir ou rester au même poids ?
+                    Découvre quels sont  tes besoins caloriques et maîtrise enfin ton poids.
+                </p>
+                <button onclick="location.href='pages/exercices.php'">Découvrir</button>
             </section>
             <!-- "NUTRITION" section -->
             <section class="container imgBackground">
