@@ -26,7 +26,7 @@ try{
     fwrite($logs, "prenom = " . $userName
         . " / mail = " . $userMailAdress
         . " / sexe = " . $_POST[SEXE]
-        . " / objectif = " . ($_POST[SEXE] === 'h') ? $_POST[OBJECTIF_HOMME] :$_POST[OBJECTIF_FEMME]
+        . " / objectif = " . (($_POST[SEXE] === 'h') ? $_POST[OBJECTIF_HOMME] : $_POST[OBJECTIF_FEMME])
         . " / poids = " . $_POST[POIDS]
         . " / nbrDeSeance = " . $_POST[NBR_SEANCE]
         . "\n");
