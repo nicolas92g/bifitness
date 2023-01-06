@@ -47,7 +47,7 @@ function makeQuestionNumberMenu($question, $id, $unit){
     <section id='$id' class='question'>
         <h2>$question</h2>
         <input type='number' step='1' id='$inputId' placeholder='Saisissez la valeur en $unit'><br>
-        <button onclick='onNumberValidation(\"$inputId\")' class='redButton'>Valider</button>
+        <button onclick='onNumberValidation(\"$inputId\")' class='greenButton'>Valider</button>
     </section>
     ";
 }
@@ -64,7 +64,7 @@ function makeQuestionButtonMenuMultipleResponse($question, $id, $buttons, $onVal
         <section id='$id' class='question'>
             <h2>$question</h2>
             $menu
-            <button onclick='$onValidation' class='redButton'>Valider</button>
+            <button onclick='$onValidation' class='greenButton'>Valider</button>
         </section>
     ";
 }
@@ -77,7 +77,7 @@ function makeQuestiontextMenu($question, $id){
     <section id='$id' class='question'>
         <h2>$question</h2>
         <input type='text' id='$inputId'><br>
-        <button onclick='onTextValidation(\"$inputId\")' class='redButton'>Valider</button>
+        <button onclick='onTextValidation(\"$inputId\")' class='greenButton'>Valider</button>
     </section>
     ";
 }

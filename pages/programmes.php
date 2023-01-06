@@ -61,7 +61,7 @@ $content = "
                 à vos envies, vos objectifs, votre niveau et votre matériel
             </p>
         </div>
-        <button onclick='nextPage(\"\")' class='redButton'>Appuyez pour commencer</button>
+        <button onclick='nextPage(\"\")' class='greenButton'>Appuyez pour commencer</button>
     </section>
     $sexeQuestion
     $objectifHomme

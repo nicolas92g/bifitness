@@ -52,16 +52,14 @@
             <!-- "EXERCICES" section -->
             <section class="container textContainer">
                 <H2>EXERCICES</H2>
+                <img src="assets/biceps.png" alt="biceps">
                 <p>
-
                     Découvre plus de 100 d' exercices de musculation classés par zones musculaires, pour travailler toute les parties du corps . Tous les exercices sont détaillés et accompagnés de d'une vidéo explicative, pour une bonne exécution.
                 </p>
-                <a href="pages/exercices.php">Découvrir</a>
+                <button onclick="location.href='pages/exercices.php'">Découvrir</button>
             </section>
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
-                <div></div>
-                <div></div>
                 <h3 id="progTitle">PROGRAMME PERSONNALISÉ</h3>
                 <h2 id="progPrice">19,99€/mois</h2>
                 <div id="progDiv">
@@ -89,17 +87,20 @@
                         <img src="assets/done.svg">
                         <span>Conseils sur la nutrition & l’entraînement</span>
                     </div>
-                    <button onclick="location.href='pages/programmes.php'" id="progButton">Générer mon programme</button>
+                    <button onclick="location.href='pages/programmes.php'" id="progButton" class="greenButton">Générer mon programme</button>
                 </div>
-                <div></div>
             </section>
             <!-- "ENTRAINEMENT" section -->
-            <section class="container textContainer">
-                <H2>PROGRAMME D'ESSAI GRATUIT </H2>
-                <p>
-                    Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
-                </p>
-                <a href="pages/entrainement.php">Découvrir</a>
+            <section class="container imgBackground">
+                <div></div>
+                <div>
+                    <H2>PROGRAMME D'ESSAI GRATUIT </H2>
+                    <p>
+                        Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
+                    </p>
+                    <button onclick="location.href='pages/entrainement.php'" class="greenButton">Découvrir</button>
+                </div>
+                <div></div>
             </section>
             <!-- "NUTRITION" section -->
             <section class="container imgBackground">
@@ -110,7 +111,7 @@
                         La nutrition joue un rôle essentiel si vous souhaitez progresser en musculation c'est le carburant de votre corps et de vos muscles
                     </p>
                 </div>
-                <button onclick="location.href='pages/nutrition.php'">Découvrir</button>
+                <button onclick="location.href='pages/nutrition.php'" class="greenButton">Découvrir</button>
             </section>
         </main>
 
