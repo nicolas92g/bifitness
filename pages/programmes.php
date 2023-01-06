@@ -51,7 +51,7 @@ $mail = makeQuestiontextMenu("VOTRE ADDRESSE MAIL ? <br>(Attention ne te trompe 
 $content = "
 <div class='pageContainer' id='progSelector'>
     <div>
-    <!--<section id='welcomePageContainer' class='amazonWindow'>
+    <section id='welcomePageContainer' class='amazonWindow'>
         <div></div>
         <div>
             <h2>TON PROGRAMME BIFITNESS</h2>
@@ -73,7 +73,7 @@ $content = "
     $poidsCible
     $age
     $nbrSeance
-    $mail-->
+    $mail
     <section class='question'>
         <div id='checkoutPage' class='amazonWindow'>
             <div>
