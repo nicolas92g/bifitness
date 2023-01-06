@@ -120,9 +120,10 @@ section:nth-of-type(7){
     padding: 30px 0;
 }
 
-.textContainer p{
-    padding: 0 40px;
+p{
+    padding: 0 20px;
     font-size: 14px;
+    text-align: justify;
 }
 
 
