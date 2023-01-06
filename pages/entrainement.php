@@ -2,7 +2,7 @@
 include ("../source/siteStructure.php");
 
 $content = "
-<section class='pageContainer'>
+<section class='pageContainer' id='freeProgContainer'>
     <h2>Programme Homme</h2>
     <img src='../assets/programmeGratuit1.png' alt='programme Gratuit page 1' class='freeProgramme'>
     <a href='programmes/pdfs/1%20nutrition%20femme%20masse%20-%2045KG.pdf' download='programmeGratuitFemme.pdf'>
