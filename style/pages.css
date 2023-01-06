@@ -158,6 +158,7 @@ input[type='checkbox']{
 
 #welcomeProgP{
     padding: 0 20px;
+    font-size: 15px;
 }
 
 #welcomePageContainer{
@@ -174,7 +175,7 @@ input[type='checkbox']{
 
 img[alt='mail']{
     width: 200px;
-    margin: 0 auto;
+    margin: 0   auto;
 }
 
 #mailContainer{
