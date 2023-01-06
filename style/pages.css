@@ -33,6 +33,10 @@ body{
     background-color: #EEE;
 }
 
+.pageContainer p{
+    text-align: justify;
+}
+
 .pageTextContainer{
     min-height: calc(100vh - 74px);
     margin: 0 auto;
