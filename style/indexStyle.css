@@ -241,6 +241,10 @@ section a:hover{
     height: 30px;
 }
 
+#freeProgP{
+    margin: 40px 0;
+}
+
 img[alt="biceps"], img[alt="calories"]{
     width: 180px;
     margin: 20px;

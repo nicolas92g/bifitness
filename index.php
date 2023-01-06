@@ -113,7 +113,7 @@
                 <div></div>
                 <div>
                     <H2>PROGRAMME D'ESSAI GRATUIT </H2>
-                    <p>
+                    <p id="freeProgP">
                         Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
                     </p>
                     <button onclick="location.href='pages/entrainement.php'" class="">Découvrir</button>
