@@ -13,9 +13,9 @@ function makeFooter(){
     return "
     <footer>
         <p>
-            &copy; Copyright 2023 B. Moussa<br><br>
-            Contact : bifitness.msa@gmail.com
+            &copy; Copyright 2023 B. Moussa
         </p>
+        <span>Contact : bifitness.msa@gmail.com</span>
     </footer>
     ";
 }

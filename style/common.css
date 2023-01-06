@@ -10,10 +10,17 @@ footer{
     background-color: black;
     padding: 5px;
     border-top: 1px solid rgba(0,0,0, .3);
+    height: 76px;
 }
 
 footer p{
     text-align: center;
+    font-size: .7em;
+}
+footer span{
+    display: block;
+    text-align: center;
+    font-size: .6em;
 }
 
 html, body{
@@ -33,6 +40,10 @@ button{
     width: 90%;
     margin: 10px;
     font-weight: bold;
+}
+
+button:focus{
+    border-color: black;
 }
 
 button:hover{

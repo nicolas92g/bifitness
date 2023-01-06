@@ -21,16 +21,21 @@ const NOM = 5;
 $userMailAdress = $_POST[MAIL];
 $userName = htmlspecialchars($_POST[NOM]);
 
-//try{
-//    $logs = fopen("users.log", "a");
-//    fwrite($logs, "name = " . $userName . " / mail = " . $userMailAdress . '\n');
-//    fclose($logs);
-//}
-//catch (Exception $e)
-//{
-//    echo $e->errorMessage();
-//}
-
+try{
+    $logs = fopen("../../../users.log", "a");
+    fwrite($logs, "prenom = " . $userName
+        . " / mail = " . $userMailAdress
+        . " / sexe = " . $_POST[SEXE]
+        . " / objectif = " . (($_POST[SEXE] === 'h') ? $_POST[OBJECTIF_HOMME] : $_POST[OBJECTIF_FEMME])
+        . " / poids = " . $_POST[POIDS]
+        . " / nbrDeSeance = " . $_POST[NBR_SEANCE]
+        . "\n");
+    fclose($logs);
+}
+catch (Exception $e)
+{
+    echo $e->errorMessage();
+}
 
 $content = "";
 
@@ -189,11 +194,11 @@ else{
         $mail->Subject = 'Votre Programme Bifitness';
         $mail->Body = "
         <p>Cher(e) $userName,<br>
-        Nous vous remercions d'avoir choisi bifitness !<br>
-        Vous trouverez dans ce mail un programme musculation et nutrition en pièce jointe.
-        Vous êtes désormais abonnés à l'abonnement Bifitness, vous recevrez donc votre programme mensuellement.
+        Je te remercie d'avoir choisi bifitness !<br>
+        tu trouveras dans ce mail ton programme musculation et nutrition en pièce jointe.
+        Tu es désormais abonné à bifitness, tu recevras donc ton programme tous les mois.
         </p>
-        <h4>Bon entrainement et Amusez vous bien !</h4>
+        <h4>Bon entrainement !</h4>
         ";
 
         $mail->send();
