@@ -49,9 +49,9 @@ $nbrSeance = makeQuestionButtonMenu("COMBIEN DE FOIS PEUT-TU T'ENTRAINER PAR SEM
 $mail = makeQuestiontextMenu("VOTRE ADDRESSE MAIL ? <br>(Attention ne te trompe pas)", "mail");
 
 $content = "
-<div class='pageContainer' >
+<div class='pageContainer' id='progSelector'>
     <div>
-    <section id='welcomePageContainer'>
+    <section id='welcomePageContainer' class='amazonWindow'>
         <div></div>
         <div>
             <h2>TON PROGRAMME BIFITNESS</h2>

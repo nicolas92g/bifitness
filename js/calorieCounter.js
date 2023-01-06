@@ -39,7 +39,9 @@ function nextPage(result){
 
         cal *= constantesDactivite[results[inputs.activite]];
 
-        resultSection.innerHTML ="<h1>Votre apport calorique est de " + Math.round(cal) +" calories</h1>" +
+        resultSection.innerHTML =
+            "<img src='../../assets/food.svg' alt='nutrition'>" +
+            "<H4>Votre apport calorique de maintien est de " + Math.round(cal) +" calories</H4>" +
             "<button onclick='history.back()'>Retour</button>";
     }
 }
