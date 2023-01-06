@@ -138,7 +138,7 @@
                         La nutrition joue un rôle essentiel si vous souhaitez progresser en musculation c'est le carburant de votre corps et de vos muscles
                     </p>
                 </div>
-                <button onclick="location.href='pages/nutrition.php'" class="greenButton">Découvrir</button>
+                <button onclick="location.href='pages/nutrition.php'" class="">Découvrir</button>
             </section>
         </main>
 
