@@ -21,7 +21,8 @@
                 <a href="pages/exercices.php" onclick="openBurgerMenu(false)">Exercices</a>
                 <a href="pages/nutrition.php" onclick="openBurgerMenu(false)">Nutrition</a>
                 <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Programme d'essai gratuit</a>
-                <a href="pages/programmes.php" onclick="openBurgerMenu(false)"> Programme personnalisé</a>
+                <a href="pages/programmes.php" onclick="openBurgerMenu(false)">Programme personnalisé</a>
+                <a href="/pages/nutrition/CalculateurDeCalories.php" onclick="openBurgerMenu(false)">Calculateur de calories</a>
 <!--                <a href="pages/presentation.php"  onclick="openBurgerMenu(false)">Qui suis-je ?</a>-->
             </nav>
             <!-- button that allow to close the application -->

@@ -15,7 +15,7 @@ function nextPage(result){
     results[page] = result;
     page++;
     goToPage(page);
-    console.log(results);
+    //console.log(results);
 }
 
 function zonesFunction(){
