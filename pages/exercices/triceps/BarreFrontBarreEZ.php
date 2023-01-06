@@ -11,19 +11,11 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/WXjCqijDbc4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-<p>Etape 1 :  Allongé sur un banc, les pieds bien calés au sol, le bas du dos légèrement cambré, les mains espacées d’une largeur supérieure à celle des épaules<br><br>
+<p>Etape 1 : Allongé sur un banc, les mains en prise pronation espacées d’environ la largeur des épaules, les coudes pliés à 90 degrés, 
 
+Etape 2 : Il s’agit d’effectuer une extension des coudes à partir de la position barre sur le front.
 
-
-Etape 2 :  Pousser la barre après que celle-ci soit arrivée au contact de vos pectoraux.<br><br>
-
-
-
-Etape 3 :  Il est bon de noter que comme lors de tous les exercices pour les pectoraux, votre cage thoracique doit être “sortie”.<br><br>
-
-
-
-Vous ne devez à aucun moment vous retrouver à plat.<br><br></p>
+Etape 3 : On dit souvent qu’il faut garder les coudes dans le prolongement des mains, avoir les “coudes serrés”. La vérité est qu’il vous faut trouver la position dans laquelle vous pouvez forcer confortablement.<br><br></p>
 </section>
 
 
