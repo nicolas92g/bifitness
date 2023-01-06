@@ -89,7 +89,7 @@
                         <img src="assets/done.svg">
                         <span>Conseils sur la nutrition & l’entraînement</span>
                     </div>
-                    <button onclick="location.href='pages/programmes.php'" id="progButton" class="greenButton">Générer mon programme</button>
+                    <button onclick="location.href='pages/programmes.php'" id="progButton" class="greenButton">GÉNÉRER MON PROGRAMME</button>
                 </div>
             </section>
             <!--  -->
@@ -119,7 +119,7 @@
                 </div>
                 <div></div>
             </section>
-            <!-- "Celculateur de calories" section -->
+            <!-- "Calculateur de calories" section -->
             <section class="container textContainer">
                 <H2>CALCULATEUR DE CALORIES</H2>
                 <img src="assets/calories.png" alt="calories">
