@@ -21,15 +21,15 @@ const NOM = 5;
 $userMailAdress = $_POST[MAIL];
 $userName = htmlspecialchars($_POST[NOM]);
 
-try{
-    $logs = fopen("users.log", "a");
-    fwrite($logs, "name = " . $userName . " / mail = " . $userMailAdress . '\n');
-    fclose($logs);
-}
-catch (Exception $e)
-{
-    echo $e->errorMessage();
-}
+//try{
+//    $logs = fopen("users.log", "a");
+//    fwrite($logs, "name = " . $userName . " / mail = " . $userMailAdress . '\n');
+//    fclose($logs);
+//}
+//catch (Exception $e)
+//{
+//    echo $e->errorMessage();
+//}
 
 
 $content = "";
