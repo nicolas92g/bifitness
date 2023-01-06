@@ -5,7 +5,6 @@ require '../../source/PHPMailer/src/PHPMailer.php';
 require '../../source/PHPMailer/src/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 $mail = new PHPMailer(true);
@@ -34,7 +33,7 @@ try{
 }
 catch (Exception $e)
 {
-    echo $e->errorMessage();
+//    echo $e->errorMessage();
 }
 
 $content = "";
@@ -47,8 +46,8 @@ if (!isset($_POST[SEXE])){
     ";
 }
 else{
-    $pdfTraining = "TP1";
-    $pdfNutrition = "TP1";
+    $pdfTraining = "erreur";
+    $pdfNutrition = "erreur";
 
     //HOMME
     if ($_POST[SEXE] == "h"){
@@ -215,4 +214,4 @@ else{
     }
 }
 
-echo genSiteContent("../..", $content, );
+echo genSiteContent("../..", $content);
