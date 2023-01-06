@@ -20,7 +20,7 @@
                 <img src="assets/icon.png" width="80" alt="headerIcon">
                 <a href="pages/exercices.php" onclick="openBurgerMenu(false)">Exercices</a>
 <!--                <a href="pages/nutrition.php" onclick="openBurgerMenu(false)">Nutrition</a>-->
-                <a href="pages/nutrition.php" onclick="alert('Cette section sera bientôt disponible :)')">Nutrition</a>
+                <a href="" onclick="alert('Cette section sera bientôt disponible :)')">Nutrition</a>
                 <a href="pages/entrainement.php" onclick="openBurgerMenu(false)">Programme d'essai gratuit</a>
                 <a href="pages/programmes.php" onclick="openBurgerMenu(false)">Programme personnalisé</a>
                 <a href="pages/nutrition/CalculateurDeCalories.php" onclick="openBurgerMenu(false)">Calculateur de calories</a>
