@@ -8,7 +8,7 @@ $sexeQuestion = makeQuestionButtonMenu("QUELLE EST VOTRE SEXE ?", "sexe",
         "nextPage(\"f\"); nextPage(\"\")" => "Femme"
     ]);
 
-$morpho = makeQuestionButtonMenu("QUELLE EST VOTRE MORPHOLOGIE  ?", "morpho",
+$morpho = makeQuestionButtonMenu("QUELLE EST VOTRE <br>MORPHOLOGIE  ?", "morpho",
     [
         "nextPage(\"mince\");" => "Physique mince",
         "nextPage(\"normal\");" => "Physique normal",

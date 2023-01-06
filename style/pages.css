@@ -189,3 +189,15 @@ img[alt='mail']{
     text-align: left;
     padding: 0 20px;
 }
+
+#morpho h2{
+    font-size: 20px;
+}
+
+#freeProgContainer h2{
+    margin: 30px;
+}
+
+#freeProgContainer img{
+    margin: 0;
+}
