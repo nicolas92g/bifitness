@@ -23,14 +23,19 @@ $userName = htmlspecialchars($_POST[NOM]);
 
 try{
     $logs = fopen("../../../users.log", "a");
-    fwrite($logs, "name = " . $userName . " / mail = " . $userMailAdress . '\n');
+    fwrite($logs, "prenom = " . $userName
+        . " / mail = " . $userMailAdress
+        . " / sexe = " . $_POST[SEXE]
+        . " / objectif = " . ($_POST[SEXE] === 'h') ? $_POST[OBJECTIF_HOMME] :$_POST[OBJECTIF_FEMME]
+        . " / poids = " . $_POST[POIDS]
+        . " / nbrDeSeance = " . $_POST[NBR_SEANCE]
+        . "\n");
     fclose($logs);
 }
 catch (Exception $e)
 {
     echo $e->errorMessage();
 }
-
 
 $content = "";
 

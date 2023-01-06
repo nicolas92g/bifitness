@@ -2,13 +2,13 @@
 include ("../source/siteStructure.php");
 include ("../source/pagesFunctions.php");
 
-$sexeQuestion = makeQuestionButtonMenu("QUELLE EST VOTRE SEXE ?", "sexe",
+$sexeQuestion = makeQuestionButtonMenu("QUELLE EST TON SEXE ?", "sexe",
     [
         "nextPage(\"h\")" => "Homme",
         "nextPage(\"f\"); nextPage(\"\")" => "Femme"
     ]);
 
-$morpho = makeQuestionButtonMenu("QUELLE EST VOTRE <br>MORPHOLOGIE  ?", "morpho",
+$morpho = makeQuestionButtonMenu("QUELLE EST TA <br>MORPHOLOGIE  ?", "morpho",
     [
         "nextPage(\"mince\");" => "Physique mince",
         "nextPage(\"normal\");" => "Physique normal",
@@ -28,15 +28,15 @@ $objectifFemme = makeQuestionButtonMenu("QUEL EST TON OBJECTIF  ?", "objectifFem
         "nextPage(\"affiner\")" => "S'affiner"
     ]);
 
-$name = makeQuestiontextMenu("QUEL EST VOTRE PRENOM ?", "nom");
+$name = makeQuestiontextMenu("QUEL EST TON PRENOM ?", "nom");
 
-$taille = makeQuestionNumberMenu("QUEL EST VOTRE TAILLE ?", "taille", "cm");
+$taille = makeQuestionNumberMenu("QUEL EST TON TAILLE ?", "taille", "cm");
 
-$poids = makeQuestionNumberMenu("QUEL EST VOTRE POIDS ?", "poids", "kg");
+$poids = makeQuestionNumberMenu("QUEL EST TON POIDS ?", "poids", "kg");
 
-$poidsCible = makeQuestionNumberMenu("QUEL EST VOTRE POIDS CIBLE ?", "poidsCible", "kg");
+$poidsCible = makeQuestionNumberMenu("QUEL EST TON POIDS CIBLE ?", "poidsCible", "kg");
 
-$age = makeQuestionNumberMenu("QUEL EST VOTRE AGE ?", "age", "années");
+$age = makeQuestionNumberMenu("QUEL EST TON AGE ?", "age", "années");
 
 $nbrSeance = makeQuestionButtonMenu("COMBIEN DE FOIS PEUT-TU T'ENTRAINER PAR SEMAINE ?", "nbrSeance",
     [
