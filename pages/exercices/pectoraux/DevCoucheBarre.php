@@ -16,15 +16,15 @@ $content = "
 
 
 
-Etape 2 :  Pousser la barre après que celle-ci soit arrivée au contact de vos pectoraux.<br><br>
+Etape 2 :  Pousse la barre après que celle-ci soit arrivée au contact de tes pectoraux.<br><br>
 
 
 
-Etape 3 :  Il est bon de noter que comme lors de tous les exercices pour les pectoraux, votre cage thoracique doit être “sortie”.<br><br>
+Etape 3 :  Note que comme pour tous les exercices pectoraux, t'as cage thoracique doit être “sortie”.<br><br>
 
 
 
-Vous ne devez à aucun moment vous retrouver à plat.<br><br></p>
+Tu ne doit à aucun moment te retrouver dos à plat.<br><br></p>
 </section>
 
 

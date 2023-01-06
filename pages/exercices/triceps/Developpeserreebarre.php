@@ -11,19 +11,11 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/oOPhNUsvDSg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-<p>Etape 1 :  Allongé sur un banc, les pieds bien calés au sol, le bas du dos légèrement cambré, les mains espacées d’une largeur supérieure à celle des épaules<br><br>
+<p>Etape 1 : Allonge toi sur un banc, les pieds bien calés au sol, le bas du dos légèrement cambré, positionne tes mains en pronation espacées d’une largeur inférieure à celles de tes épaules<br><br>
+ 
+ Etape 2 : Pousse la barre après que celle-ci soit arrivée au contact de tes pectoraux.<br><br>
+<br><br></p>
 
-
-
-Etape 2 :  Pousser la barre après que celle-ci soit arrivée au contact de vos pectoraux.<br><br>
-
-
-
-Etape 3 :  Il est bon de noter que comme lors de tous les exercices pour les pectoraux, votre cage thoracique doit être “sortie”.<br><br>
-
-
-
-Vous ne devez à aucun moment vous retrouver à plat.<br><br></p>
 </section>
 
 
