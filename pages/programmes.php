@@ -51,7 +51,7 @@ $mail = makeQuestiontextMenu("VOTRE ADDRESSE MAIL ? <br>(Attention ne te trompe 
 $content = "
 <div class='pageContainer' id='progSelector'>
     <div>
-    <section id='welcomePageContainer' class='amazonWindow'>
+    <!--<section id='welcomePageContainer' class='amazonWindow'>
         <div></div>
         <div>
             <h2>TON PROGRAMME BIFITNESS</h2>
@@ -73,12 +73,14 @@ $content = "
     $poidsCible
     $age
     $nbrSeance
-    $mail
+    $mail-->
     <section class='question'>
-        <div id='checkoutPage'>
+        <div id='checkoutPage' class='amazonWindow'>
             <div>
-                <h1>Votre programme est prêt !</h1>
-                <h3 >Abonnez vous à notre offre premium pour recevoir votre programme tous les mois !</h3>  
+                <h2>TON PROGRAMME EST PRÊT</h2>
+                <p>Abonne toi à mon offre premium pour recevoir ton programme tous les mois.</p>
+                <h3>Prix de l'abonnement :<br> 19,99€/mois</h3>
+                <span class='smallText'>(Abonnement annulable à tout moment)</span>
             </div>
             
             <div id='paypal-button-container'></div>
