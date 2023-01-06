@@ -189,11 +189,11 @@ else{
         $mail->Subject = 'Votre Programme Bifitness';
         $mail->Body = "
         <p>Cher(e) $userName,<br>
-        Nous vous remercions d'avoir choisi bifitness !<br>
-        Vous trouverez dans ce mail un programme musculation et nutrition en pièce jointe.
-        Vous êtes désormais abonnés à l'abonnement Bifitness, vous recevrez donc votre programme mensuellement.
+        Je te remercie d'avoir choisi bifitness !<br>
+        tu trouveras dans ce mail ton programme musculation et nutrition en pièce jointe.
+        Tu es désormais abonné à bifitness, tu recevras donc ton programme tous les mois.
         </p>
-        <h4>Bon entrainement et Amusez vous bien !</h4>
+        <h5>Bon entrainement !</h5>
         ";
 
         $mail->send();
