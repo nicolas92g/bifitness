@@ -97,15 +97,15 @@
             <section class="container textContainer">
                 <h2>Pourquoi prendre le programme Bifitness ?</h2>
                 <p>
-                    Également, je serais joignable 7j/7 pour répondre à tes questions si besoin, être à l’écoute et modifier en temps réel
-                    chaque détail du quotidien si nécessaire. Au cours de ta progression, je ferais évoluer tes diètes et tes entraînements
-                    afin que ton corps reste en constante évolution.
-                    Un bilan hebdomadaire aura lieu afin d’avoir un retour sur tes ressentis physiques, visuels et généraux (diète, sommeil,
-                    entraînements, rythme de vie ect…).
-                    Chaque début de mois, nous procéderons à un gros bilan afin de faire une mise au point sur ton évolution physique et sur
-                    l’avancement de tes objectifs.
-                    À la fin du suivi, tu auras appris à écouter ton corps, à devenir autonome sur l’évolution de ton physique et tu auras
-                    acquis un maximum de connaissances au niveau diététique et entraînement.
+                    Pour avoir des entrainements structurés, savoir quoi faire, comment le faire et quand le faire.
+
+                    tu aura une progression plus rapide.
+
+                    De nouvelles connaissances sur la musculation et la nutrition.<br><br>
+
+                    Tu recevra chaque mois un programme qui sera évolutif avec le temps en fonction de ton niveau, ton emploi du temps, ta progression et ton objectif
+
+
                 </p>
             </section>
             <!-- "ENTRAINEMENT" section -->
@@ -114,7 +114,7 @@
                 <div>
                     <H2>PROGRAMME D'ESSAI GRATUIT </H2>
                     <p id="freeProgP">
-                        Dans cette rubrique vous trouverez  des exemples de programmes expliquées pour tous les niveaux !
+                        Dans cette rubrique tu trouveras  un programme d'essai gratuit non personnalisé pour homme & femme !
                     </p>
                     <button onclick="location.href='pages/entrainement.php'" class="">Découvrir</button>
                 </div>
@@ -125,8 +125,8 @@
                 <H2>CALCULATEUR DE CALORIES</H2>
                 <img src="assets/calories.png" alt="calories">
                 <p>
-                    combien de calories tu dois  consommer chaque jour pour maigrir, grossir ou rester au même poids ?
-                    Découvre quels sont  tes besoins caloriques et maîtrise enfin ton poids.
+                    Combien de calories tu dois  consommer chaque jour pour maigrir, grossir ou rester au même poids ?
+                    Découvre quels sont tes besoins caloriques et maîtrise enfin ton poids.
                 </p>
                 <button onclick="location.href='pages/nutrition/CalculateurDeCalories.php'">Découvrir</button>
             </section>
