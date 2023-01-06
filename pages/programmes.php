@@ -10,22 +10,22 @@ $sexeQuestion = makeQuestionButtonMenu("QUELLE EST VOTRE SEXE ?", "sexe",
 
 $morpho = makeQuestionButtonMenu("QUELLE EST VOTRE MORPHOLOGIE  ?", "morpho",
     [
-        "nextPage(\"mince\");" => "physique mince",
-        "nextPage(\"normal\");" => "physique normal",
-        "nextPage(\"rond\");" => "physique rond"
+        "nextPage(\"mince\");" => "Physique mince",
+        "nextPage(\"normal\");" => "Physique normal",
+        "nextPage(\"rond\");" => "Physique rond"
     ]);
 
 $objectifHomme = makeQuestionButtonMenu("QUEL EST TON OBJECTIF  ?", "objectifHomme",
     [
-        "nextPage(\"masse\"); nextPage(\"\")" => "prise de masse",
-        "nextPage(\"seche\"); nextPage(\"\")" => "sèche"
+        "nextPage(\"masse\"); nextPage(\"\")" => "Prise de masse",
+        "nextPage(\"seche\"); nextPage(\"\")" => "Sèche"
     ]);
 
 
 $objectifFemme = makeQuestionButtonMenu("QUEL EST TON OBJECTIF  ?", "objectifFemme",
     [
-        "nextPage(\"forme\")" => "prendre des formes",
-        "nextPage(\"affiner\")" => "s'affiner"
+        "nextPage(\"forme\")" => "Prendre des formes",
+        "nextPage(\"affiner\")" => "S'affiner"
     ]);
 
 $name = makeQuestiontextMenu("QUEL EST VOTRE PRENOM ?", "nom");
@@ -46,22 +46,22 @@ $nbrSeance = makeQuestionButtonMenu("COMBIEN DE FOIS PEUT-TU T'ENTRAINER PAR SEM
         "nextPage(6)" => " 6 "
     ]);
 
-$mail = makeQuestiontextMenu("QUEL EST VOTRE ADDRESSE MAIL ? (Attention ne vous trompez pas !)", "mail");
+$mail = makeQuestiontextMenu("VOTRE ADDRESSE MAIL ? <br>(Attention ne te trompe pas)", "mail");
 
 $content = "
-<div class='pageContainer'>
+<div class='pageContainer' >
     <div>
-    <section>
+    <section id='welcomePageContainer'>
         <div></div>
         <div>
-            <h1>Bienvenue !</h1>
-            <p>
-                Vous allez répondre à un questionnaire de quelques questions
-                qui vont nous permettre de créer le programme correspondant
-                à vos envies, vos objectifs, votre niveau et votre matériel
+            <h2>TON PROGRAMME BIFITNESS</h2>
+            <p id='welcomeProgP'>
+                Tu va répondre à un questionnaire rapide
+                qui va me permettre de créer le programme correspondant
+                à tes envies, tes objectifs et ton niveau.
             </p>
         </div>
-        <button onclick='nextPage(\"\")' class='greenButton'>Appuyez pour commencer</button>
+        <button onclick='nextPage(\"\")' class='greenButton'>APPUYER POUR COMMENCER</button>
     </section>
     $sexeQuestion
     $objectifHomme
@@ -72,7 +72,7 @@ $content = "
     $poids
     $poidsCible
     $age
-    $nbrSeance    
+    $nbrSeance
     $mail
     <section class='question'>
         <div id='checkoutPage'>

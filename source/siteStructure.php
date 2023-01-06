@@ -13,7 +13,8 @@ function makeFooter(){
     return "
     <footer>
         <p>
-            &copy; 2022 bifitness company
+            &copy; Copyright 2023 B. Moussa<br><br>
+            Contact : bifitness.msa@gmail.com
         </p>
     </footer>
     ";

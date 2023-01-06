@@ -167,8 +167,11 @@ else{
 
     $content = "
         <section class='pageContainer'>
+            <div></div>
             <h1>Merci d'avoir choisi bifitness !</h1>
-            <p>Vérifier votre boîte mail nous vous avons envoyé vos programmes à l'adresse suivante : $userMailAdress</p>
+            <img src='../../assets/mail.svg' alt='mail'>
+            <p>Vérifier votre boîte mail nous vous avons envoyé vos programmes à l'adresse suivante : <br>$userMailAdress</p>
+            <div></div>
         </section>
     ";
 
@@ -198,12 +201,12 @@ else{
     catch (Exception $e)
     {
         /* PHPMailer exception. */
-        echo $e->errorMessage();
+        //echo $e->errorMessage();
     }
     catch (\Exception $e)
     {
         /* PHP exception (note the backslash to select the global namespace Exception class). */
-        echo $e->getMessage();
+        //echo $e->getMessage();
     }
 }
 

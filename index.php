@@ -79,15 +79,15 @@
                     </div>
                     <div class="progLine">
                         <img src="assets/done.svg">
-                        <span>Accompagnement 7j/7</span>
-                    </div>
-                    <div class="progLine">
-                        <img src="assets/done.svg">
-                        <span>Adapté à ton rythme de vie</span>
+                        <span>Envoi immédiat</span>
                     </div>
                     <div class="progLine">
                         <img src="assets/done.svg">
                         <span>Conseils sur la nutrition & l’entraînement</span>
+                    </div>
+                    <div class="progLine">
+                        <img src="assets/done.svg">
+                        <span>Annulable à tout moment</span>
                     </div>
                     <button onclick="location.href='pages/programmes.php'" id="progButton" class="greenButton">GÉNÉRER MON PROGRAMME</button>
                 </div>
@@ -138,7 +138,8 @@
                         La nutrition joue un rôle essentiel si vous souhaitez progresser en musculation c'est le carburant de votre corps et de vos muscles
                     </p>
                 </div>
-                <button onclick="location.href='pages/nutrition.php'" class="">Découvrir</button>
+<!--                <button onclick="location.href='pages/nutrition.php'" class="">Découvrir</button>-->
+                <button onclick="alert('Cette section sera bientôt disponible :)')">Découvrir</button>
             </section>
         </main>
 

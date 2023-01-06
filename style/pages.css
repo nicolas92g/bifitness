@@ -127,8 +127,9 @@ input:focus-visible{
     display: none;
 }
 
-.question h2{
-    font-size: 25px;
+h2{
+    font-size: 20px;
+     margin: 20px 0 40px 0;
 }
 
 #intro{
@@ -153,4 +154,29 @@ input[type='checkbox']{
 .freeProgramme{
     margin-top: 50px;
     width: 100%;
+}
+
+#welcomeProgP{
+    padding: 0 20px;
+}
+
+#welcomePageContainer{
+    padding: 20px 0;
+    border-width: 4px 0;
+    border-style: solid;
+    border-color: black;
+}
+
+#welcomePageContainer button{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+img[alt='mail']{
+    width: 200px;
+    margin: 0 auto;
+}
+
+#mailContainer{
+    text-align: center;
 }
