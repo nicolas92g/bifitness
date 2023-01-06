@@ -61,9 +61,7 @@ $content = "
                 à vos envies, vos objectifs, votre niveau et votre matériel
             </p>
         </div>
-        
-        <button onclick='nextPage(\"\")'>Appuyez pour commencer</button>            
-        
+        <button onclick='nextPage(\"\")' class='redButton'>Appuyez pour commencer</button>
     </section>
     $sexeQuestion
     $objectifHomme
@@ -84,8 +82,11 @@ $content = "
             </div>
             
             <div id='paypal-button-container'></div>
-            
             <script src='https://www.paypal.com/sdk/js?client-id=test&currency=EUR&vault=true&intent=subscription' data-sdk-integration-source='integrationbuilder'></script>
+            
+            <div id='paypal-button-container-P-2BS331075H3931308MO374KA'></div>
+            <!--<script src='https://www.paypal.com/sdk/js?client-id=AfimPJThlnFU1gw1uLBHJCiBg6mwOIZHyR70SiRqNlGzfED0uK8jrF1RYmSv_CqhOdEp3zVGZxHtYEBO&vault=true&intent=subscription' data-sdk-integration-source='button-factory'></script>
+            -->
             <script src='../js/programmes.js'></script>
             <script src='../js/paypal.js'></script>
         </div>

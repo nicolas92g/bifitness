@@ -66,3 +66,21 @@ for (const fundingSource of fundingSources) {
             });
     }
 }
+
+paypal.Buttons({
+    style: {
+        shape: 'pill',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'subscribe'
+    },
+    createSubscription: function(data, actions) {
+        return actions.subscription.create({
+            /* Creates the subscription */
+            plan_id: 'P-2BS331075H3931308MO374KA'
+        });
+    },
+    onApprove: function(data, actions) {
+        post("programmes/verif.php", results);
+    }
+}).render('#paypal-button-container-P-2BS331075H3931308MO374KA'); // Renders the PayPal button
