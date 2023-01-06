@@ -30,7 +30,7 @@ $objectifFemme = makeQuestionButtonMenu("QUEL EST TON OBJECTIF  ?", "objectifFem
 
 $name = makeQuestiontextMenu("QUEL EST TON PRENOM ?", "nom");
 
-$taille = makeQuestionNumberMenu("QUEL EST TON TAILLE ?", "taille", "cm");
+$taille = makeQuestionNumberMenu("QUEL EST TA TAILLE ?", "taille", "cm");
 
 $poids = makeQuestionNumberMenu("QUEL EST TON POIDS ?", "poids", "kg");
 

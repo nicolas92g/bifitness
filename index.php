@@ -57,7 +57,7 @@
                 <H2>EXERCICES</H2>
                 <img src="assets/biceps.png" alt="biceps">
                 <p>
-                    Découvre plus de 100 d' exercices de musculation classés par zones musculaires, pour travailler toute les parties du corps . Tous les exercices sont détaillés et accompagnés de d'une vidéo explicative, pour une bonne exécution.
+                    Découvre plus de 100 d'exercices de musculation classés par zones musculaires, pour travailler toutes les parties de ton corps. Tous les exercices sont détaillés et accompagnés d'une vidéo explicative, pour une bonne exécution.
                 </p>
                 <button onclick="location.href='pages/exercices.php'">Découvrir</button>
             </section>
@@ -99,11 +99,11 @@
                 <p>
                     Pour avoir des entrainements structurés, savoir quoi faire, comment le faire et quand le faire.
 
-                    tu aura une progression plus rapide.
+                    Tu auras une progression plus rapide.
 
                     De nouvelles connaissances sur la musculation et la nutrition.<br><br>
 
-                    Tu recevra chaque mois un programme qui sera évolutif avec le temps en fonction de ton niveau, ton emploi du temps, ta progression et ton objectif
+                    Tu recevra chaque mois un programme qui sera évolutif avec le temps en fonction de ton niveau, ton emploi du temps, ta progression et ton objectif et si jamais tout ceci ne te convient pas, tu peux annuler ton abonnement à tout moment.
 
 
                 </p>
@@ -114,7 +114,7 @@
                 <div>
                     <H2>PROGRAMME D'ESSAI GRATUIT </H2>
                     <p id="freeProgP">
-                        Dans cette rubrique tu trouveras  un programme d'essai gratuit non personnalisé pour homme & femme !
+                        Dans cette rubrique tu trouveras un programme d'essai gratuit non personnalisé pour homme ou femme !
                     </p>
                     <button onclick="location.href='pages/entrainement.php'" class="">Découvrir</button>
                 </div>
@@ -125,8 +125,8 @@
                 <H2>CALCULATEUR DE CALORIES</H2>
                 <img src="assets/calories.png" alt="calories">
                 <p>
-                    Combien de calories tu dois  consommer chaque jour pour maigrir, grossir ou rester au même poids ?
-                    Découvre quels sont tes besoins caloriques et maîtrise enfin ton poids.
+                    Combien de calories tu dois consommer chaque jour pour maigrir, grossir ou rester au même poids ?<br><br>
+                    Découvre quels sont tes besoins caloriques et maîtrise ton poids avec le calculateur de calories.
                 </p>
                 <button onclick="location.href='pages/nutrition/CalculateurDeCalories.php'">Découvrir</button>
             </section>
@@ -136,7 +136,7 @@
                 <div>
                     <H2>NUTRITION</H2>
                     <p>
-                        La nutrition joue un rôle essentiel si vous souhaitez progresser en musculation c'est le carburant de votre corps et de vos muscles
+                        La nutrition joue un rôle essentiel si tu souhaites progresser en musculation, c'est le carburant de ton corps et de tes muscles.
                     </p>
                 </div>
 <!--                <button onclick="location.href='pages/nutrition.php'" class="">Découvrir</button>-->
