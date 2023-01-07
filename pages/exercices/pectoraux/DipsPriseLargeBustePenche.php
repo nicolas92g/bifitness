@@ -11,7 +11,9 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/X9bpnooiZBc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-
+<p>Étape 1 : Les mains écartées d’une largeur supérieure à celles des épaules, les bras tendus, le buste légèrement penché en avant.<br><br>
+ 
+Étape 2 : Tu vas effectuer une extension des coudes, après être descendu plus ou moins bas.<br><br></p>
 </section>
 
 

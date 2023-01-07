@@ -11,7 +11,10 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/6FkVs0g9G70' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-
+<p>Étape 1 : Mets-toi debout, les pieds écartés environ égal à la largeur du bassin, le dos droit ou légèrement cambré, la barre placée sur les trapèzes.<br><br>
+ 
+ 
+Étape 2 : Tu vas effectuer une flexion des genoux.<br><br></p>
 </section>
 
 

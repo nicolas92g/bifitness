@@ -57,7 +57,7 @@
                 <H2>EXERCICES</H2>
                 <img src="assets/biceps.png" alt="biceps">
                 <p>
-                    Découvre plus de 100 d'exercices de musculation classés par zones musculaires, pour travailler toutes les parties de ton corps. Tous les exercices sont détaillés et accompagnés d'une vidéo explicative, pour une bonne exécution.
+                    Découvre plus de 100 exercices de musculation classés par zones musculaires, pour travailler toutes les parties de ton corps. Tous les exercices sont détaillés et accompagnés d'une vidéo explicative, pour une bonne exécution.
                 </p>
                 <button onclick="location.href='pages/exercices.php'">Découvrir</button>
             </section>

@@ -11,7 +11,11 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/T8fiAqpZfuY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+<p>Étape 1 : Assieds-toi sur la machine poulie haute, les genoux et les pieds bien calés, les mains en prise neutre.<br><br>
+ 
+Étape 2 : Tu vas tirer la barre devant toi (vers les clavicules) à partir d’une position où les bras sont pratiquement tendus.<br><br>
 
+Étape 3 : Note que comme pour tous les exercices dos, ta cage thoracique doit être sortie. À aucun moment ton dos ne devra se retrouver rond.<br><br></p>
 </section>
 
 

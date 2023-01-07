@@ -11,7 +11,10 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/E8EO0U9bOWI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-
+<p>Étape 1 : Mets-toi face à une poulie haute, les genoux semi-fléchis, le dos bien droit, coudes collés au corps.<br><br>
+ 
+Étape 2 : Tu vas effectuer une extension des coudes tout en écartant progressivement les mains.<br><br>
+</p>
 </section>
 
 

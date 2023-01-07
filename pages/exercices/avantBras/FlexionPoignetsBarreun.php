@@ -11,7 +11,11 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/-3AXagle0Dc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+<p>Étape 1 : Prend la barre en prise supination.<br><br>
+ 
+Étape 2 : Tu vas effectuer des flexions de poignets.<br><br>
 
+Attention : N'étire pas trop ton poignet en bas du mouvement, tu risquerais d'avoir une blessure.</p>
 </section>
 
 

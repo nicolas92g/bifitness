@@ -11,7 +11,12 @@ $content = "
 <section class='pageTextContainer'>
     <h1>$title</h1>
     <iframe src='https://www.youtube.com/embed/magHyDxJJqw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+<p>Étape 1 : Assieds-toi par terre avec un banc derrière toi. Place la barre sur tes jambes juste au-dessus de tes hanches.<br><br>
 
+
+Étape 2 : Appuie-toi contre le banc pour que tes épaules reposent dessus, pose-toi sur tes bras utilisant le banc comme support.<br><br>
+
+Étape 3 : Souleve le poids en contractant tes fessiers et reviens lentement à la position de départ.<br><br></p>
 </section>
 
 
