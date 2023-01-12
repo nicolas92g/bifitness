@@ -76,7 +76,7 @@
                     </div>
                     <div class="progLine">
                         <img src="assets/done.svg">
-                        <span>Envoi mensuel</span>
+                        <span>Envoi d'un nouveau programme tous les mois</span>
                     </div>
                     <div class="progLine">
                         <img src="assets/done.svg">
@@ -95,15 +95,15 @@
             </section>
             <!--  -->
             <section class="container textContainer">
-                <h2>Pourquoi prendre le programme Bifitness ?</h2>
+                <h2>POURQUOI PRENDRE LE PROGRAMME BIFITNESS ?</h2>
                 <p>
-                    Pour avoir des entrainements structurés, savoir quoi faire, comment le faire et quand le faire.
+                    Tu auras des entrainements structurés, tu sauras quoi faire, comment le faire et quand le faire.
 
-                    Tu auras une progression plus rapide.
+                    Donc une progression plus rapide.
 
                     De nouvelles connaissances sur la musculation et la nutrition.<br><br>
 
-                    Tu recevra chaque mois un programme qui sera évolutif avec le temps en fonction de ton niveau, ton emploi du temps, ta progression et ton objectif et si jamais tout ceci ne te convient pas, tu peux annuler ton abonnement à tout moment.
+                    Tu recevras chaque mois un programme différent qui te permettra de progresser encore et encore, et si un jour quelle que soit la raison tu as envie d'arrêter et bien peux annuler ton abonnement à tout moment.
 
 
                 </p>
