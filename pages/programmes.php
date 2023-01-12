@@ -56,7 +56,7 @@ $content = "
         <div>
             <h2>TON PROGRAMME BIFITNESS</h2>
             <p id='welcomeProgP'>
-                Tu va répondre à un questionnaire rapide
+                Tu vas répondre à un questionnaire rapide
                 qui va me permettre de créer le programme correspondant
                 à tes envies, tes objectifs et ton niveau.
             </p>
