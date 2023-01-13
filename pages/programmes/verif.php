@@ -38,7 +38,7 @@ catch (Exception $e)
 
 $content = "";
 
-if (!isset($_POST[SEXE]) and false){
+if (!isset($_POST[SEXE])){
     $content = "
         <section class='pageContainer'>
             <h1>Votre requête est invalide !</h1>
@@ -182,8 +182,8 @@ else{
     try {
         //addresses
         $mail->setFrom('bilel.msa@bifitness.fr');
-        //$mail->addAddress($userMailAdress);
-        $mail->addAddress("nicolasguillot92@gmail.com");
+        $mail->addAddress($userMailAdress);
+        //$mail->addAddress("nicolasguillot92@gmail.com");
 
         //pdfs
         $mail->addAttachment("pdfs/$pdfTraining.pdf", "ProgrammeMusculationBifitness.pdf");
