@@ -38,7 +38,7 @@ catch (Exception $e)
 
 $content = "";
 
-if (!isset($_POST[SEXE])){
+if (!isset($_POST[SEXE]) and false){
     $content = "
         <section class='pageContainer'>
             <h1>Votre requête est invalide !</h1>
