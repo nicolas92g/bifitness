@@ -182,7 +182,8 @@ else{
     try {
         //addresses
         $mail->setFrom('bilel.msa@bifitness.fr');
-        $mail->addAddress($userMailAdress);
+        //$mail->addAddress($userMailAdress);
+        $mail->addAddress("nicolasguillot92@gmail.com");
 
         //pdfs
         $mail->addAttachment("pdfs/$pdfTraining.pdf", "ProgrammeMusculationBifitness.pdf");
