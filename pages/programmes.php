@@ -46,7 +46,7 @@ $nbrSeance = makeQuestionButtonMenu("COMBIEN DE FOIS PEUT-TU T'ENTRAINER PAR SEM
         "nextPage(6)" => " 6 "
     ]);
 
-$mail = makeQuestiontextMenu("VOTRE ADDRESSE MAIL ? <br>(Attention ne te trompe pas)", "mail");
+$mail = makeQuestiontextMenu("TON ADRESSE MAIL ? <br>(Attention ne te trompe pas)", "mail");
 
 $content = "
 <div class='pageContainer' id='progSelector'>
