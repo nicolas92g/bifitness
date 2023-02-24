@@ -64,7 +64,7 @@
             <!-- "PROGRAMMES" section -->
             <section class="container imgBackground">
                 <h3 id="progTitle">PROGRAMME PERSONNALISÉ</h3>
-                <h2 id="progPrice">19,99€/mois</h2>
+                <h2 id="progPrice">19,99€</h2>
                 <div id="progDiv">
                     <div class="progLine">
                         <img src="assets/done.svg">
@@ -76,19 +76,11 @@
                     </div>
                     <div class="progLine">
                         <img src="assets/done.svg">
-                        <span>Envoi d'un nouveau programme tous les mois</span>
-                    </div>
-                    <div class="progLine">
-                        <img src="assets/done.svg">
                         <span>Envoi immédiat</span>
                     </div>
                     <div class="progLine">
                         <img src="assets/done.svg">
                         <span>Conseils sur la nutrition & l’entraînement</span>
-                    </div>
-                    <div class="progLine">
-                        <img src="assets/done.svg">
-                        <span>Annulable à tout moment</span>
                     </div>
                     <button onclick="location.href='pages/programmes.php'" id="progButton" class="greenButton">GÉNÉRER MON PROGRAMME</button>
                 </div>
