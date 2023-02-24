@@ -29,7 +29,7 @@ paypal.Buttons({
 
     createOrder: function(data, actions) {
         return actions.order.create({
-            purchase_units: [{"amount":{"currency_code":"EUR","value":19.99}}]
+            purchase_units: [{"amount":{"currency_code":"EUR","value":0.01}}]
         });
     },
 
