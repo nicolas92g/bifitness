@@ -1,6 +1,7 @@
 <?php include("source/siteStructure.php")?>
 <!DOCTYPE html>
 <html lang="fr">
+    <!-- developed by Nicolas GUILLOT -->
     <head>
         <title>bifitness</title>
         <link rel="icon"href="assets/icon.png">
